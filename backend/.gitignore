@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# Environment variables or secret files
+.env
+*.env
+
+# VS Code settings (optional, but common)
+.vscode/
+
+# Testing / coverage
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.log
+
+# MyPy, Pyright, or other type checking
+.mypy_cache/
+.pyright/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# macOS system files
+.DS_Store
