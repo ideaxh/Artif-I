@@ -1,0 +1,1186 @@
+date,payment_method,category,expenses,amount,currency
+2021-01-15,online_payment,Transportation,expense,41.0,EUR
+2021-01-15,online_payment,Transportation,expense,40.0,EUR
+2021-01-16,online_payment,Food,expense,35.0,EUR
+2021-01-16,online_payment,Eating,expense,139.0,EUR
+2021-01-16,online_payment,Transportation,expense,40.0,EUR
+2021-01-16,online_payment,Grocery,expense,1174.93,EUR
+2021-01-18,online_payment,Home,expense,300.0,EUR
+2021-01-18,online_payment,Transportation,expense,40.0,EUR
+2021-01-19,online_payment,Transportation,expense,40.0,EUR
+2021-01-19,online_payment,Grocery,expense,133.55,EUR
+2021-01-19,online_payment,Transportation,expense,40.0,EUR
+2021-01-20,online_payment,Transportation,expense,40.0,EUR
+2021-01-20,online_payment,Grocery,expense,77.17,EUR
+2021-01-20,online_payment,Electricity,expense,551.0,EUR
+2021-01-20,online_payment,Transportation,expense,40.0,EUR
+2021-01-21,online_payment,Transportation,expense,40.0,EUR
+2021-01-21,online_payment,Transportation,expense,40.0,EUR
+2021-01-22,online_payment,Phone,expense,50.0,EUR
+2021-01-22,online_payment,Eating,expense,96.0,EUR
+2021-01-22,online_payment,Transportation,expense,40.0,EUR
+2021-01-22,online_payment,Transportation,expense,46.0,EUR
+2021-01-23,online_payment,Food,expense,35.0,EUR
+2021-01-23,online_payment,Transportation,expense,40.0,EUR
+2021-01-23,online_payment,Grocery,expense,174.75,EUR
+2021-01-24,online_payment,Others,expense,802.0,EUR
+2021-01-25,online_payment,Transportation,expense,40.0,EUR
+2021-01-25,online_payment,Food,expense,15.0,EUR
+2021-01-26,online_payment,Transportation,expense,40.0,EUR
+2021-01-26,online_payment,Transportation,expense,40.0,EUR
+2021-01-27,online_payment,Transportation,expense,40.0,EUR
+2021-01-27,online_payment,Grocery,expense,119.0,EUR
+2021-01-27,online_payment,Transportation,expense,40.0,EUR
+2021-01-28,online_payment,Transportation,expense,40.0,EUR
+2021-01-28,online_payment,Transportation,expense,40.0,EUR
+2021-01-29,online_payment,Transportation,expense,40.0,EUR
+2021-01-29,online_payment,Phone,expense,50.0,EUR
+2021-01-29,online_payment,Transportation,expense,40.0,EUR
+2021-01-29,online_payment,Eating,expense,139.0,EUR
+2021-01-29,online_payment,Food,expense,15.0,EUR
+2021-01-29,online_payment,Grocery,expense,88.3,EUR
+2021-01-30,online_payment,Transportation,expense,40.0,EUR
+2021-01-31,online_payment,Grocery,expense,940.05,EUR
+2021-01-31,online_payment,Electricity,expense,130.68,EUR
+2021-01-31,online_payment,Transportation,expense,10.0,EUR
+2021-01-31,online_payment,Food,expense,5.0,EUR
+2021-02-01,online_payment,Transportation,expense,40.0,EUR
+2021-02-02,online_payment,Transportation,expense,20.0,EUR
+2021-02-02,online_payment,Eating,expense,42.0,EUR
+2021-02-02,online_payment,Transportation,expense,28.0,EUR
+2021-02-02,online_payment,Transportation,expense,40.0,EUR
+2021-02-03,online_payment,Food,expense,30.0,EUR
+2021-02-03,online_payment,Transportation,expense,40.0,EUR
+2021-02-03,online_payment,Grocery,expense,96.35,EUR
+2021-02-03,online_payment,Transportation,expense,45.0,EUR
+2021-02-04,online_payment,Food,expense,30.0,EUR
+2021-02-04,online_payment,Eating,expense,89.0,EUR
+2021-02-04,online_payment,Transportation,expense,40.0,EUR
+2021-02-04,online_payment,Debt repayment,expense,18.0,EUR
+2021-02-04,online_payment,Transportation,expense,40.0,EUR
+2021-02-05,online_payment,Eating,expense,11.0,EUR
+2021-02-05,online_payment,Eating,expense,79.0,EUR
+2021-02-05,online_payment,Transportation,expense,40.0,EUR
+2021-02-05,online_payment,Phone,expense,50.0,EUR
+2021-02-05,online_payment,Transportation,expense,40.0,EUR
+2021-02-06,online_payment,Food,expense,30.0,EUR
+2021-02-06,online_payment,Transportation,expense,40.0,EUR
+2021-02-06,online_payment,Food,expense,50.0,EUR
+2021-02-07,online_payment,Food,expense,60.0,EUR
+2021-02-08,online_payment,Food,expense,24.0,EUR
+2021-02-08,online_payment,Transportation,expense,40.0,EUR
+2021-02-09,online_payment,Transportation,expense,40.0,EUR
+2021-02-09,online_payment,Transportation,expense,40.0,EUR
+2021-02-09,online_payment,Food,expense,15.0,EUR
+2021-02-10,online_payment,Transportation,expense,40.0,EUR
+2021-02-10,online_payment,Transportation,expense,40.0,EUR
+2021-02-11,online_payment,Eating,expense,30.0,EUR
+2021-02-11,online_payment,Transportation,expense,40.0,EUR
+2021-02-11,online_payment,Grocery,expense,75.0,EUR
+2021-02-11,online_payment,Phone,expense,100.0,EUR
+2021-02-11,online_payment,Transportation,expense,40.0,EUR
+2021-02-12,online_payment,Food,expense,30.0,EUR
+2021-02-12,online_payment,Transportation,expense,40.0,EUR
+2021-02-12,online_payment,Transportation,expense,18.0,EUR
+2021-02-13,online_payment,Transportation,expense,18.0,EUR
+2021-02-13,online_payment,Eating,expense,487.0,EUR
+2021-02-13,online_payment,Others,expense,50.0,EUR
+2021-02-14,online_payment,Transportation,expense,157.0,EUR
+2021-02-14,online_payment,Eating,expense,170.0,EUR
+2021-02-14,online_payment,Grocery,expense,965.9,EUR
+2021-02-15,online_payment,Food,expense,5.0,EUR
+2021-02-16,online_payment,Transportation,expense,40.0,EUR
+2021-02-16,online_payment,Eating,expense,245.0,EUR
+2021-02-17,online_payment,Transportation,expense,40.0,EUR
+2021-02-17,online_payment,Grocery,expense,179.25,EUR
+2021-02-17,online_payment,Transportation,expense,41.0,EUR
+2021-02-18,online_payment,Transportation,expense,40.0,EUR
+2021-02-18,online_payment,Food,expense,5.0,EUR
+2021-02-18,online_payment,Transportation,expense,40.0,EUR
+2021-02-18,online_payment,Home,expense,200.0,EUR
+2021-02-19,online_payment,Food,expense,35.0,EUR
+2021-02-19,online_payment,Phone,expense,100.0,EUR
+2021-02-19,online_payment,Grocery,expense,63.25,EUR
+2021-02-19,online_payment,Others,expense,665.15,EUR
+2021-02-20,online_payment,Food,expense,175.0,EUR
+2021-02-20,online_payment,Eating,expense,59.0,EUR
+2021-02-20,online_payment,Transportation,expense,40.0,EUR
+2021-02-20,online_payment,Food,expense,25.0,EUR
+2021-02-20,online_payment,Others,expense,20.0,EUR
+2021-02-21,online_payment,Electricity,expense,366.0,EUR
+2021-02-21,online_payment,Food,expense,37.0,EUR
+2021-02-22,online_payment,Transportation,expense,40.0,EUR
+2021-02-23,online_payment,Transportation,expense,40.0,EUR
+2021-02-23,online_payment,Grocery,expense,135.0,EUR
+2021-02-23,online_payment,Transportation,expense,40.0,EUR
+2021-02-23,online_payment,Food,expense,3.0,EUR
+2021-02-24,online_payment,Transportation,expense,40.0,EUR
+2021-02-24,online_payment,Food,expense,20.0,EUR
+2021-02-24,online_payment,Transportation,expense,40.0,EUR
+2021-02-25,online_payment,Transportation,expense,40.0,EUR
+2021-02-25,online_payment,Grocery,expense,80.68,EUR
+2021-02-25,online_payment,Transportation,expense,45.0,EUR
+2021-02-26,online_payment,Food,expense,30.0,EUR
+2021-02-26,online_payment,Phone,expense,100.0,EUR
+2021-02-26,online_payment,Transportation,expense,40.0,EUR
+2021-02-27,online_payment,Eating,expense,89.0,EUR
+2021-02-27,online_payment,Transportation,expense,40.0,EUR
+2021-02-27,online_payment,Grocery,expense,278.41,EUR
+2021-02-28,online_payment,Transportation,expense,19.0,EUR
+2021-02-28,online_payment,Grocery,expense,1055.0,EUR
+2021-02-28,online_payment,Electricity,expense,130.68,EUR
+2021-02-28,online_payment,Transportation,expense,40.0,EUR
+2021-03-01,online_payment,Eating,expense,100.0,EUR
+2021-03-01,online_payment,Transportation,expense,40.0,EUR
+2021-03-01,online_payment,Transportation,expense,53.0,EUR
+2021-03-02,online_payment,Eating,expense,150.0,EUR
+2021-03-02,online_payment,Transportation,expense,40.0,EUR
+2021-03-02,online_payment,Transportation,expense,51.0,EUR
+2021-03-03,online_payment,Food,expense,35.0,EUR
+2021-03-03,online_payment,Transportation,expense,40.0,EUR
+2021-03-03,online_payment,Transportation,expense,40.0,EUR
+2021-03-04,online_payment,Eating,expense,118.0,EUR
+2021-03-04,online_payment,Food,expense,15.0,EUR
+2021-03-04,online_payment,Transportation,expense,40.0,EUR
+2021-03-04,online_payment,Phone,expense,50.0,EUR
+2021-03-04,online_payment,Grocery,expense,105.6,EUR
+2021-03-05,online_payment,Transportation,expense,40.0,EUR
+2021-03-05,online_payment,Eating,expense,86.0,EUR
+2021-03-05,online_payment,Grocery,expense,294.9,EUR
+2021-03-07,online_payment,Food,expense,45.0,EUR
+2021-03-07,online_payment,Transportation,expense,40.0,EUR
+2021-03-08,online_payment,Eating,expense,90.0,EUR
+2021-03-08,online_payment,Transportation,expense,40.0,EUR
+2021-03-08,online_payment,Transportation,expense,40.0,EUR
+2021-03-09,online_payment,Food,expense,129.0,EUR
+2021-03-09,online_payment,Transportation,expense,53.0,EUR
+2021-03-09,online_payment,Others,expense,178.0,EUR
+2021-03-09,online_payment,Transportation,expense,52.0,EUR
+2021-03-10,online_payment,Transportation,expense,40.0,EUR
+2021-03-10,online_payment,Others,expense,175.0,EUR
+2021-03-10,online_payment,Grocery,expense,116.0,EUR
+2021-03-10,online_payment,Transportation,expense,40.0,EUR
+2021-03-11,online_payment,Grocery,expense,41.0,EUR
+2021-03-11,online_payment,Transportation,expense,40.0,EUR
+2021-03-11,online_payment,Transportation,expense,40.0,EUR
+2021-03-12,online_payment,Eating,expense,89.0,EUR
+2021-03-12,online_payment,Food,expense,99.0,EUR
+2021-03-12,online_payment,Transportation,expense,40.0,EUR
+2021-03-12,online_payment,Grocery,expense,87.0,EUR
+2021-03-12,online_payment,Food,expense,5.0,EUR
+2021-03-13,online_payment,Transportation,expense,18.0,EUR
+2021-03-13,online_payment,Grocery,expense,900.0,EUR
+2021-03-13,online_payment,Others,expense,827.5,EUR
+2021-03-13,online_payment,Eating,expense,119.0,EUR
+2021-03-14,online_payment,Food,expense,25.0,EUR
+2021-03-15,online_payment,Transportation,expense,54.0,EUR
+2021-03-15,online_payment,Transportation,expense,52.0,EUR
+2021-03-15,online_payment,Phone,expense,100.0,EUR
+2021-03-17,online_payment,Transportation,expense,18.0,EUR
+2021-03-17,online_payment,Grocery,expense,650.0,EUR
+2021-03-18,online_payment,Phone,expense,30.0,EUR
+2021-03-18,online_payment,Home,expense,200.0,EUR
+2021-03-19,online_payment,Others,expense,159.0,EUR
+2021-03-19,online_payment,Food,expense,25.0,EUR
+2021-03-20,online_payment,Phone,expense,90.0,EUR
+2021-03-21,online_payment,Food,expense,45.0,EUR
+2021-03-23,online_payment,Grocery,expense,937.35,EUR
+2021-03-23,online_payment,Phone,expense,103.0,EUR
+2021-03-26,online_payment,Food,expense,23.0,EUR
+2021-03-28,online_payment,Phone,expense,90.0,EUR
+2021-03-28,online_payment,Food,expense,35.0,EUR
+2021-03-29,online_payment,Phone,expense,90.0,EUR
+2021-03-31,online_payment,Grocery,expense,958.32,EUR
+2021-04-01,online_payment,Others,expense,159.0,EUR
+2021-04-01,online_payment,Food,expense,11.0,EUR
+2021-04-01,online_payment,Food,expense,6.0,EUR
+2021-04-02,online_payment,Others,expense,5390.4,EUR
+2021-04-03,online_payment,Phone,expense,100.0,EUR
+2021-04-04,online_payment,Food,expense,5.0,EUR
+2021-04-04,online_payment,Food,expense,5.0,EUR
+2021-04-05,online_payment,Phone,expense,140.0,EUR
+2021-04-05,online_payment,Grocery,expense,425.5,EUR
+2021-04-06,online_payment,Phone,expense,50.0,EUR
+2021-04-09,online_payment,Phone,expense,100.0,EUR
+2021-04-10,online_payment,Food,expense,35.0,EUR
+2021-04-11,online_payment,Grocery,expense,666.06,EUR
+2021-04-12,online_payment,Food,expense,10.0,EUR
+2021-04-13,online_payment,Food,expense,6.0,EUR
+2021-04-13,online_payment,Others,expense,23.0,EUR
+2021-05-02,online_payment,Food,expense,35.0,EUR
+2021-05-03,online_payment,Grocery,expense,601.83,EUR
+2021-05-06,online_payment,Food,expense,23.0,EUR
+2021-05-09,online_payment,Food,expense,23.0,EUR
+2021-05-09,online_payment,Others,expense,469.0,EUR
+2021-05-09,online_payment,Phone,expense,90.0,EUR
+2021-05-10,online_payment,Grocery,expense,1000.0,EUR
+2021-05-14,online_payment,Food,expense,26.0,EUR
+2021-05-15,online_payment,Grocery,expense,1172.02,EUR
+2021-05-16,online_payment,Phone,expense,85.0,EUR
+2021-05-16,online_payment,Phone,expense,90.0,EUR
+2021-05-17,online_payment,Phone,expense,99.0,EUR
+2021-05-17,online_payment,Phone,expense,225.0,EUR
+2021-05-17,online_payment,Food,expense,5.0,EUR
+2021-05-17,online_payment,Grocery,expense,1000.0,EUR
+2021-05-18,online_payment,Phone,expense,100.0,EUR
+2021-05-19,online_payment,Grocery,expense,793.08,EUR
+2021-05-19,online_payment,Home,expense,300.0,EUR
+2021-05-20,online_payment,Food,expense,103.0,EUR
+2021-05-20,online_payment,Electricity,expense,420.0,EUR
+2021-05-21,online_payment,Phone,expense,20.0,EUR
+2021-05-22,online_payment,Others,expense,1044.0,EUR
+2021-05-22,online_payment,Food,expense,25.0,EUR
+2021-05-22,online_payment,Phone,expense,90.0,EUR
+2021-05-23,online_payment,Home,expense,200.0,EUR
+2021-05-23,online_payment,Food,expense,52.0,EUR
+2021-05-24,online_payment,Phone,expense,90.0,EUR
+2021-05-24,online_payment,Grocery,expense,665.48,EUR
+2021-05-24,online_payment,Food,expense,6.0,EUR
+2021-05-25,online_payment,Phone,expense,199.0,EUR
+2021-05-28,online_payment,Others,expense,150.0,EUR
+2021-05-29,online_payment,Others,expense,259.0,EUR
+2021-05-29,online_payment,Grocery,expense,604.26,EUR
+2021-05-29,online_payment,Food,expense,10.0,EUR
+2021-05-30,online_payment,Food,expense,10.0,EUR
+2021-06-01,online_payment,Phone,expense,90.0,EUR
+2021-06-03,online_payment,Grocery,expense,1038.35,EUR
+2021-06-05,online_payment,Food,expense,113.0,EUR
+2021-06-06,online_payment,Food,expense,35.0,EUR
+2021-06-08,online_payment,Phone,expense,199.0,EUR
+2021-06-09,online_payment,Grocery,expense,815.0,EUR
+2021-06-12,online_payment,Food,expense,25.0,EUR
+2021-06-14,online_payment,Phone,expense,199.0,EUR
+2021-06-14,online_payment,Grocery,expense,850.0,EUR
+2021-06-15,online_payment,Phone,expense,15.0,EUR
+2021-06-15,online_payment,Food,expense,3.0,EUR
+2021-06-21,online_payment,Grocery,expense,1000.0,EUR
+2021-06-22,online_payment,Phone,expense,90.0,EUR
+2021-06-24,online_payment,Others,expense,344.0,EUR
+2021-06-24,online_payment,Phone,expense,90.0,EUR
+2021-06-25,online_payment,Food,expense,5.0,EUR
+2021-06-27,online_payment,Phone,expense,90.0,EUR
+2021-06-27,online_payment,Grocery,expense,610.83,EUR
+2021-06-29,online_payment,Phone,expense,199.0,EUR
+2021-07-01,online_payment,Electricity,expense,522.72,EUR
+2021-07-02,online_payment,Phone,expense,50.0,EUR
+2021-07-02,online_payment,Transportation,expense,129.0,EUR
+2021-07-02,online_payment,Food,expense,119.0,EUR
+2021-07-03,online_payment,Transportation,expense,96.0,EUR
+2021-07-03,online_payment,Others,expense,170.0,EUR
+2021-07-03,online_payment,Grocery,expense,310.3,EUR
+2021-07-03,online_payment,Others,expense,160.0,EUR
+2021-07-05,online_payment,Grocery,expense,437.0,EUR
+2021-07-05,online_payment,Phone,expense,90.0,EUR
+2021-07-06,online_payment,Food,expense,130.0,EUR
+2021-07-07,online_payment,Food,expense,100.0,EUR
+2021-07-08,online_payment,Food,expense,99.0,EUR
+2021-07-08,online_payment,Others,expense,4000.0,EUR
+2021-07-09,online_payment,Transportation,expense,35.0,EUR
+2021-07-09,online_payment,Food,expense,86.0,EUR
+2021-07-10,online_payment,Transportation,expense,59.0,EUR
+2021-07-10,online_payment,Food,expense,89.0,EUR
+2021-07-11,online_payment,Transportation,expense,81.0,EUR
+2021-07-11,online_payment,Grocery,expense,845.65,EUR
+2021-07-12,online_payment,Phone,expense,90.0,EUR
+2021-07-13,online_payment,Transportation,expense,59.0,EUR
+2021-07-13,online_payment,Food,expense,89.0,EUR
+2021-07-14,online_payment,Transportation,expense,59.0,EUR
+2021-07-14,online_payment,Food,expense,89.0,EUR
+2021-07-15,online_payment,Transportation,expense,59.0,EUR
+2021-07-15,online_payment,Food,expense,89.0,EUR
+2021-07-16,online_payment,Transportation,expense,59.0,EUR
+2021-07-16,online_payment,Food,expense,45.0,EUR
+2021-07-17,online_payment,Transportation,expense,59.0,EUR
+2021-07-20,online_payment,Food,expense,67.0,EUR
+2021-07-20,online_payment,Grocery,expense,80.0,EUR
+2021-07-20,online_payment,Transportation,expense,94.0,EUR
+2021-07-21,online_payment,Food,expense,63.0,EUR
+2021-07-21,online_payment,Transportation,expense,94.0,EUR
+2021-07-21,online_payment,Food,expense,198.0,EUR
+2021-07-22,online_payment,Food,expense,89.0,EUR
+2021-07-22,online_payment,Transportation,expense,94.0,EUR
+2021-07-23,online_payment,Food,expense,89.0,EUR
+2021-07-24,online_payment,Food,expense,125.0,EUR
+2021-07-24,online_payment,Grocery,expense,175.0,EUR
+2021-07-26,online_payment,Transportation,expense,70.0,EUR
+2021-07-27,online_payment,Food,expense,46.0,EUR
+2021-07-28,online_payment,Transportation,expense,450.11,EUR
+2021-07-28,online_payment,Food,expense,89.0,EUR
+2021-07-29,online_payment,Food,expense,39.0,EUR
+2021-07-29,online_payment,Food,expense,45.0,EUR
+2021-07-31,online_payment,Food,expense,174.0,EUR
+2021-08-01,online_payment,Grocery,expense,946.0,EUR
+2021-08-01,online_payment,Transportation,expense,26.0,EUR
+2021-08-02,online_payment,Phone,expense,199.0,EUR
+2021-08-03,online_payment,Electricity,expense,257.58,EUR
+2021-08-03,online_payment,Food,expense,30.0,EUR
+2021-08-05,online_payment,Phone,expense,90.0,EUR
+2021-08-07,online_payment,Food,expense,30.0,EUR
+2021-08-08,online_payment,Grocery,expense,265.53,EUR
+2021-08-08,online_payment,Food,expense,30.0,EUR
+2021-08-10,online_payment,Phone,expense,90.0,EUR
+2021-08-11,online_payment,Food,expense,30.0,EUR
+2021-08-12,online_payment,Food,expense,30.0,EUR
+2021-08-12,online_payment,Food,expense,85.0,EUR
+2021-08-12,online_payment,Food,expense,10.0,EUR
+2021-08-13,online_payment,Food,expense,3.0,EUR
+2021-08-15,online_payment,Grocery,expense,744.0,EUR
+2021-08-15,online_payment,Phone,expense,199.0,EUR
+2021-08-16,online_payment,Others,expense,3000.0,EUR
+2021-08-16,online_payment,Electricity,expense,350.0,EUR
+2021-08-18,online_payment,Food,expense,120.0,EUR
+2021-08-18,online_payment,Phone,expense,90.0,EUR
+2021-08-21,online_payment,Food,expense,175.0,EUR
+2021-08-22,online_payment,Grocery,expense,909.73,EUR
+2021-08-22,online_payment,Transportation,expense,70.0,EUR
+2021-08-26,online_payment,Grocery,expense,70.0,EUR
+2021-08-27,online_payment,Others,expense,20.0,EUR
+2021-08-28,online_payment,Electricity,expense,148.68,EUR
+2021-08-29,online_payment,Grocery,expense,826.42,EUR
+2021-08-29,online_payment,Transportation,expense,70.0,EUR
+2021-08-29,online_payment,Phone,expense,90.0,EUR
+2021-09-02,online_payment,Food,expense,70.0,EUR
+2021-09-03,online_payment,Food,expense,30.0,EUR
+2021-09-03,online_payment,Phone,expense,90.0,EUR
+2021-09-05,online_payment,Grocery,expense,616.98,EUR
+2021-09-05,online_payment,Transportation,expense,70.0,EUR
+2021-09-08,online_payment,Food,expense,100.0,EUR
+2021-09-09,online_payment,Phone,expense,90.0,EUR
+2021-09-10,online_payment,Food,expense,40.0,EUR
+2021-09-10,online_payment,Food,expense,60.0,EUR
+2021-09-12,online_payment,Grocery,expense,735.43,EUR
+2021-09-12,online_payment,Transportation,expense,70.0,EUR
+2021-09-13,online_payment,Others,expense,418.0,EUR
+2021-09-14,online_payment,Others,expense,276.0,EUR
+2021-09-14,online_payment,Phone,expense,90.0,EUR
+2021-09-16,online_payment,Food,expense,100.0,EUR
+2021-09-17,online_payment,Food,expense,20.0,EUR
+2021-09-17,online_payment,Others,expense,20.0,EUR
+2021-09-18,online_payment,Food,expense,68.0,EUR
+2021-09-18,online_payment,Others,expense,129.0,EUR
+2021-09-19,online_payment,Grocery,expense,863.38,EUR
+2021-09-19,online_payment,Transportation,expense,70.0,EUR
+2021-09-19,online_payment,Electricity,expense,130.68,EUR
+2021-09-20,online_payment,Phone,expense,90.0,EUR
+2021-09-24,online_payment,Food,expense,20.0,EUR
+2021-09-24,online_payment,Food,expense,140.0,EUR
+2021-09-24,online_payment,Others,expense,10.0,EUR
+2021-09-24,online_payment,Phone,expense,90.0,EUR
+2021-09-25,online_payment,Eating,expense,118.0,EUR
+2021-09-25,online_payment,Grocery,expense,600.0,EUR
+2021-09-25,online_payment,Transportation,expense,70.0,EUR
+2021-09-26,online_payment,Food,expense,3.0,EUR
+2021-09-29,online_payment,Food,expense,130.0,EUR
+2021-09-29,online_payment,Phone,expense,50.0,EUR
+2021-10-01,online_payment,Food,expense,78.0,EUR
+2021-10-02,online_payment,Phone,expense,90.0,EUR
+2021-10-02,online_payment,Grocery,expense,125.0,EUR
+2021-10-02,online_payment,Grocery,expense,756.78,EUR
+2021-10-02,online_payment,Transportation,expense,70.0,EUR
+2021-10-03,online_payment,Phone,expense,199.0,EUR
+2021-10-08,online_payment,Food,expense,96.0,EUR
+2021-10-08,online_payment,Food,expense,20.0,EUR
+2021-10-08,online_payment,Food,expense,16.0,EUR
+2021-10-09,online_payment,Grocery,expense,883.18,EUR
+2021-10-09,online_payment,Transportation,expense,70.0,EUR
+2021-10-09,online_payment,Phone,expense,90.0,EUR
+2021-10-13,online_payment,Food,expense,85.0,EUR
+2021-10-15,online_payment,Others,expense,20.0,EUR
+2021-10-15,online_payment,Food,expense,48.0,EUR
+2021-10-16,online_payment,Transportation,expense,70.0,EUR
+2021-10-16,online_payment,Grocery,expense,489.6,EUR
+2021-10-16,online_payment,Grocery,expense,135.0,EUR
+2021-10-16,online_payment,Food,expense,96.0,EUR
+2021-10-16,online_payment,Food,expense,3.0,EUR
+2021-10-16,online_payment,Phone,expense,90.0,EUR
+2021-10-22,online_payment,Food,expense,3.0,EUR
+2021-10-23,online_payment,Transportation,expense,70.0,EUR
+2021-10-23,online_payment,Phone,expense,90.0,EUR
+2021-10-23,online_payment,Grocery,expense,649.88,EUR
+2021-10-23,online_payment,Home,expense,800.0,EUR
+2021-10-25,online_payment,Food,expense,3.0,EUR
+2021-10-25,online_payment,Electricity,expense,130.68,EUR
+2021-10-29,online_payment,Food,expense,3.0,EUR
+2021-10-29,online_payment,Phone,expense,90.0,EUR
+2021-10-30,online_payment,Transportation,expense,70.0,EUR
+2021-10-30,online_payment,Grocery,expense,684.1,EUR
+2021-10-30,online_payment,Food,expense,96.0,EUR
+2021-10-30,online_payment,Food,expense,3.0,EUR
+2021-10-30,online_payment,Phone,expense,90.0,EUR
+2021-11-03,online_payment,Others,expense,945.45,EUR
+2021-11-04,online_payment,Phone,expense,90.0,EUR
+2021-11-05,online_payment,Food,expense,27.0,EUR
+2021-11-06,online_payment,Transportation,expense,70.0,EUR
+2021-11-06,online_payment,Grocery,expense,695.68,EUR
+2021-11-06,online_payment,Food,expense,96.0,EUR
+2021-11-06,online_payment,Food,expense,3.0,EUR
+2021-11-08,online_payment,Food,expense,3.0,EUR
+2021-11-11,online_payment,Others,expense,1931.35,EUR
+2021-11-13,online_payment,Transportation,expense,70.0,EUR
+2021-11-13,online_payment,Grocery,expense,759.05,EUR
+2021-11-13,online_payment,Food,expense,96.0,EUR
+2021-11-13,online_payment,Food,expense,3.0,EUR
+2021-11-14,online_payment,Electricity,expense,448.5,EUR
+2021-11-15,online_payment,Phone,expense,90.0,EUR
+2021-11-17,online_payment,Food,expense,84.0,EUR
+2021-11-19,online_payment,Food,expense,34.0,EUR
+2021-11-20,online_payment,Transportation,expense,70.0,EUR
+2021-11-20,online_payment,Grocery,expense,690.41,EUR
+2021-11-22,online_payment,Others,expense,149.0,EUR
+2021-11-22,online_payment,Phone,expense,90.0,EUR
+2021-11-24,online_payment,Food,expense,93.0,EUR
+2021-11-27,online_payment,Transportation,expense,70.0,EUR
+2021-11-27,online_payment,Grocery,expense,611.12,EUR
+2021-11-27,online_payment,Food,expense,96.0,EUR
+2021-11-27,online_payment,Bank fees,expense,380.0,EUR
+2021-11-28,online_payment,Phone,expense,90.0,EUR
+2021-11-28,online_payment,Food,expense,3.0,EUR
+2021-11-28,online_payment,Others,expense,2128.82,EUR
+2021-11-30,online_payment,Electricity,expense,130.68,EUR
+2021-12-01,online_payment,Food,expense,70.0,EUR
+2021-12-04,online_payment,Transportation,expense,35.0,EUR
+2021-12-04,online_payment,Others,expense,60.0,EUR
+2021-12-04,online_payment,Grocery,expense,557.9,EUR
+2021-12-05,online_payment,Food,expense,96.0,EUR
+2021-12-05,online_payment,Food,expense,3.0,EUR
+2021-12-08,online_payment,Food,expense,100.0,EUR
+2021-12-09,online_payment,Phone,expense,90.0,EUR
+2021-12-11,online_payment,Grocery,expense,789.77,EUR
+2021-12-11,online_payment,Transportation,expense,30.0,EUR
+2021-12-11,online_payment,Food,expense,3.0,EUR
+2021-12-12,online_payment,Others,expense,773.09,EUR
+2021-12-12,online_payment,Transportation,expense,179.0,EUR
+2021-12-12,online_payment,Food,expense,165.0,EUR
+2021-12-15,online_payment,Food,expense,65.0,EUR
+2021-12-16,online_payment,Electricity,expense,330.0,EUR
+2021-12-17,online_payment,Others,expense,20.0,EUR
+2021-12-18,online_payment,Transportation,expense,70.0,EUR
+2021-12-18,online_payment,Food,expense,3.0,EUR
+2021-12-18,online_payment,Grocery,expense,777.05,EUR
+2021-12-20,online_payment,Food,expense,3.0,EUR
+2021-12-22,online_payment,Phone,expense,90.0,EUR
+2021-12-22,online_payment,Food,expense,90.0,EUR
+2021-12-23,online_payment,Electricity,expense,130.68,EUR
+2021-12-23,online_payment,Others,expense,1250.0,EUR
+2021-12-24,online_payment,Others,expense,10.0,EUR
+2021-12-24,online_payment,Others,expense,100.0,EUR
+2021-12-25,online_payment,Grocery,expense,1000.0,EUR
+2021-12-25,online_payment,Others,expense,400.0,EUR
+2021-12-25,online_payment,Transportation,expense,100.0,EUR
+2021-12-29,online_payment,Phone,expense,70.0,EUR
+2021-12-29,online_payment,Food,expense,72.0,EUR
+2021-12-29,online_payment,Debt repayment,expense,1670.0,EUR
+2021-12-29,online_payment,Debt repayment,expense,1130.0,EUR
+2021-12-30,online_payment,Home,expense,3000.0,EUR
+2021-12-31,online_payment,Others,expense,10.0,EUR
+2022-01-01,online_payment,Others,expense,1000.0,EUR
+2022-01-02,online_payment,Phone,expense,90.0,EUR
+2022-01-04,online_payment,Food,expense,94.0,EUR
+2022-01-05,online_payment,Grocery,expense,443.7,EUR
+2022-01-05,online_payment,Others,expense,207.75,EUR
+2022-01-05,online_payment,Transportation,expense,75.0,EUR
+2022-01-07,online_payment,Others,expense,10.0,EUR
+2022-01-08,online_payment,Grocery,expense,720.0,EUR
+2022-01-08,online_payment,Transportation,expense,70.0,EUR
+2022-01-08,online_payment,Bank fees,expense,15.0,EUR
+2022-01-09,online_payment,Phone,expense,100.0,EUR
+2022-01-10,online_payment,Food,expense,3.0,EUR
+2022-01-12,online_payment,Transportation,expense,80.0,EUR
+2022-01-13,online_payment,Electricity,expense,500.0,EUR
+2022-01-13,online_payment,Food,expense,95.0,EUR
+2022-01-15,online_payment,Debt repayment,expense,1670.0,EUR
+2022-01-15,online_payment,Grocery,expense,792.06,EUR
+2022-01-15,online_payment,Transportation,expense,70.0,EUR
+2022-01-15,online_payment,Bank fees,expense,5.0,EUR
+2022-01-16,online_payment,Food,expense,100.0,EUR
+2022-01-16,online_payment,Phone,expense,90.0,EUR
+2022-01-17,online_payment,Home,expense,3000.0,EUR
+2022-01-18,online_payment,Phone,expense,50.0,EUR
+2022-01-19,online_payment,Others,expense,1200.0,EUR
+2022-01-21,online_payment,Debt repayment,expense,8.03,EUR
+2022-01-22,online_payment,Grocery,expense,572.25,EUR
+2022-01-22,online_payment,Electricity,expense,130.65,EUR
+2022-01-22,online_payment,Transportation,expense,70.0,EUR
+2022-01-23,online_payment,Phone,expense,90.0,EUR
+2022-01-24,online_payment,Food,expense,3.0,EUR
+2022-01-25,online_payment,Food,expense,110.0,EUR
+2022-01-27,online_payment,Food,expense,3.0,EUR
+2022-01-28,online_payment,Food,expense,140.0,EUR
+2022-01-28,online_payment,Others,expense,30.0,EUR
+2022-01-29,online_payment,Debt repayment,expense,1670.0,EUR
+2022-01-29,online_payment,Debt repayment,expense,1130.0,EUR
+2022-01-29,online_payment,Grocery,expense,657.3,EUR
+2022-01-29,online_payment,Phone,expense,90.0,EUR
+2022-01-29,online_payment,Transportation,expense,70.0,EUR
+2022-01-30,online_payment,Others,expense,60.0,EUR
+2022-01-30,online_payment,Transportation,expense,35.0,EUR
+2022-01-31,online_payment,Others,expense,1000.0,EUR
+2022-02-01,online_payment,Food,expense,100.0,EUR
+2022-02-02,online_payment,Home,expense,3000.0,EUR
+2022-02-03,online_payment,Food,expense,96.0,EUR
+2022-02-03,online_payment,Phone,expense,60.0,EUR
+2022-02-03,online_payment,Others,expense,10.0,EUR
+2022-02-05,online_payment,Grocery,expense,361.5,EUR
+2022-02-05,online_payment,Transportation,expense,70.0,EUR
+2022-02-08,online_payment,Food,expense,43.0,EUR
+2022-02-08,online_payment,Transportation,expense,35.0,EUR
+2022-02-10,online_payment,Food,expense,190.0,EUR
+2022-02-10,online_payment,Phone,expense,90.0,EUR
+2022-02-11,online_payment,Others,expense,10.0,EUR
+2022-02-12,online_payment,Debt repayment,expense,1670.0,EUR
+2022-02-12,online_payment,Grocery,expense,379.93,EUR
+2022-02-12,online_payment,Eating,expense,126.0,EUR
+2022-02-12,online_payment,Eating,expense,92.0,EUR
+2022-02-12,online_payment,Transportation,expense,35.0,EUR
+2022-02-12,online_payment,Transportation,expense,35.0,EUR
+2022-02-13,online_payment,Bank fees,expense,15.0,EUR
+2022-02-14,online_payment,Home,expense,3000.0,EUR
+2022-02-15,online_payment,Others,expense,1200.0,EUR
+2022-02-17,online_payment,Food,expense,76.0,EUR
+2022-02-18,online_payment,Phone,expense,100.0,EUR
+2022-02-18,online_payment,Others,expense,10.0,EUR
+2022-02-19,online_payment,Grocery,expense,328.29,EUR
+2022-02-19,online_payment,Transportation,expense,70.0,EUR
+2022-02-19,online_payment,Food,expense,3.0,EUR
+2022-02-22,online_payment,Electricity,expense,130.63,EUR
+2022-02-22,online_payment,Food,expense,96.0,EUR
+2022-02-22,online_payment,Food,expense,30.0,EUR
+2022-02-24,online_payment,Phone,expense,90.0,EUR
+2022-02-24,online_payment,Food,expense,89.0,EUR
+2022-02-24,online_payment,Debt repayment,expense,1.52,EUR
+2022-02-25,online_payment,Food,expense,32.0,EUR
+2022-02-26,online_payment,Debt repayment,expense,1670.0,EUR
+2022-02-26,online_payment,Grocery,expense,669.53,EUR
+2022-02-26,online_payment,Transportation,expense,70.0,EUR
+2022-02-26,online_payment,Bank fees,expense,15.0,EUR
+2022-02-27,online_payment,Home,expense,3200.0,EUR
+2022-02-27,online_payment,Food,expense,99.0,EUR
+2022-02-28,online_payment,Phone,expense,90.0,EUR
+2022-03-01,online_payment,Debt repayment,expense,1130.0,EUR
+2022-03-02,online_payment,Others,expense,1000.0,EUR
+2022-03-03,online_payment,Food,expense,73.0,EUR
+2022-03-04,online_payment,Others,expense,20.0,EUR
+2022-03-05,online_payment,Grocery,expense,654.44,EUR
+2022-03-05,online_payment,Transportation,expense,70.0,EUR
+2022-03-06,online_payment,Home,expense,1000.0,EUR
+2022-03-07,online_payment,Phone,expense,90.0,EUR
+2022-03-08,online_payment,Food,expense,23.0,EUR
+2022-03-09,online_payment,Grocery,expense,638.28,EUR
+2022-03-09,online_payment,Others,expense,305.0,EUR
+2022-03-09,online_payment,Transportation,expense,80.0,EUR
+2022-03-13,online_payment,Food,expense,128.0,EUR
+2022-03-14,online_payment,Phone,expense,90.0,EUR
+2022-03-15,online_payment,Home,expense,3000.0,EUR
+2022-03-15,online_payment,Debt repayment,expense,1670.0,EUR
+2022-03-15,online_payment,Others,expense,1300.0,EUR
+2022-03-16,online_payment,Grocery,expense,699.45,EUR
+2022-03-16,online_payment,Transportation,expense,70.0,EUR
+2022-03-19,online_payment,Food,expense,30.0,EUR
+2022-03-20,online_payment,Home,expense,10000.0,EUR
+2022-03-20,online_payment,Electricity,expense,510.0,EUR
+2022-03-20,online_payment,Food,expense,108.0,EUR
+2022-03-20,online_payment,Home,expense,90.0,EUR
+2022-03-20,online_payment,Phone,expense,90.0,EUR
+2022-03-21,online_payment,Home,expense,5000.0,EUR
+2022-03-22,online_payment,Electricity,expense,130.63,EUR
+2022-03-22,online_payment,Food,expense,34.0,EUR
+2022-03-22,online_payment,Debt repayment,expense,18.81,EUR
+2022-03-23,online_payment,Grocery,expense,617.83,EUR
+2022-03-23,online_payment,Transportation,expense,70.0,EUR
+2022-03-24,online_payment,Home,expense,5000.0,EUR
+2022-03-28,online_payment,Food,expense,92.0,EUR
+2022-03-28,online_payment,Phone,expense,90.0,EUR
+2022-03-30,online_payment,Home,expense,3000.0,EUR
+2022-03-30,online_payment,Debt repayment,expense,1670.0,EUR
+2022-03-30,online_payment,Debt repayment,expense,1130.0,EUR
+2022-03-30,online_payment,Grocery,expense,470.64,EUR
+2022-03-30,online_payment,Home,expense,300.0,EUR
+2022-03-30,online_payment,Transportation,expense,70.0,EUR
+2022-03-30,online_payment,Bank fees,expense,15.0,EUR
+2022-03-31,online_payment,Food,expense,95.0,EUR
+2022-04-03,online_payment,Phone,expense,90.0,EUR
+2022-04-03,online_payment,Food,expense,80.0,EUR
+2022-04-04,online_payment,Food,expense,49.0,EUR
+2022-04-05,online_payment,Others,expense,2000.0,EUR
+2022-04-06,online_payment,Grocery,expense,593.04,EUR
+2022-04-06,online_payment,Transportation,expense,70.0,EUR
+2022-04-07,online_payment,Home,expense,3000.0,EUR
+2022-04-07,online_payment,Others,expense,1000.0,EUR
+2022-04-07,online_payment,Food,expense,119.0,EUR
+2022-04-13,online_payment,Grocery,expense,477.2,EUR
+2022-04-13,online_payment,Transportation,expense,70.0,EUR
+2022-04-14,online_payment,Home,expense,3000.0,EUR
+2022-04-14,online_payment,Debt repayment,expense,1670.0,EUR
+2022-04-14,online_payment,Others,expense,1300.0,EUR
+2022-04-15,online_payment,Phone,expense,90.0,EUR
+2022-04-15,online_payment,Others,expense,10.0,EUR
+2022-04-17,online_payment,Food,expense,117.0,EUR
+2022-04-17,online_payment,Food,expense,10.0,EUR
+2022-04-19,online_payment,Food,expense,44.0,EUR
+2022-04-20,online_payment,Grocery,expense,562.88,EUR
+2022-04-20,online_payment,Transportation,expense,70.0,EUR
+2022-04-20,online_payment,Debt repayment,expense,15.2,EUR
+2022-04-21,online_payment,Food,expense,95.0,EUR
+2022-04-21,online_payment,Phone,expense,90.0,EUR
+2022-04-24,online_payment,Food,expense,90.0,EUR
+2022-04-24,online_payment,Food,expense,24.0,EUR
+2022-04-25,online_payment,Electricity,expense,415.5,EUR
+2022-04-26,online_payment,Electricity,expense,130.61,EUR
+2022-04-27,online_payment,Grocery,expense,625.3,EUR
+2022-04-27,online_payment,Phone,expense,90.0,EUR
+2022-04-27,online_payment,Transportation,expense,70.0,EUR
+2022-04-30,online_payment,Grocery,expense,255.15,EUR
+2022-04-30,online_payment,Home,expense,200.0,EUR
+2022-04-30,online_payment,Transportation,expense,35.0,EUR
+2022-05-01,online_payment,Debt repayment,expense,1130.0,EUR
+2022-05-02,online_payment,Food,expense,71.0,EUR
+2022-05-02,online_payment,Food,expense,10.0,EUR
+2022-05-03,online_payment,Debt repayment,expense,1670.0,EUR
+2022-05-04,online_payment,Home,expense,3000.0,EUR
+2022-05-04,online_payment,Grocery,expense,508.23,EUR
+2022-05-04,online_payment,Others,expense,212.77,EUR
+2022-05-04,online_payment,Phone,expense,90.0,EUR
+2022-05-04,online_payment,Transportation,expense,35.0,EUR
+2022-05-05,online_payment,Others,expense,931.68,EUR
+2022-05-06,online_payment,Food,expense,90.0,EUR
+2022-05-06,online_payment,Food,expense,10.0,EUR
+2022-05-07,online_payment,Grocery,expense,280.06,EUR
+2022-05-07,online_payment,Others,expense,105.99,EUR
+2022-05-07,online_payment,Transportation,expense,35.0,EUR
+2022-05-08,online_payment,Others,expense,1000.0,EUR
+2022-05-09,online_payment,Phone,expense,90.0,EUR
+2022-05-10,online_payment,Food,expense,48.0,EUR
+2022-05-11,online_payment,Grocery,expense,449.5,EUR
+2022-05-11,online_payment,Transportation,expense,20.0,EUR
+2022-05-12,online_payment,Food,expense,3.0,EUR
+2022-05-15,online_payment,Home,expense,3000.0,EUR
+2022-05-15,online_payment,Others,expense,650.0,EUR
+2022-05-15,online_payment,Grocery,expense,408.29,EUR
+2022-05-15,online_payment,Phone,expense,90.0,EUR
+2022-05-15,online_payment,Transportation,expense,35.0,EUR
+2022-05-16,online_payment,Debt repayment,expense,1670.0,EUR
+2022-05-18,online_payment,Grocery,expense,339.95,EUR
+2022-05-18,online_payment,Transportation,expense,35.0,EUR
+2022-05-20,online_payment,Food,expense,23.0,EUR
+2022-05-20,online_payment,Debt repayment,expense,3.92,EUR
+2022-05-22,online_payment,Grocery,expense,195.29,EUR
+2022-05-22,online_payment,Transportation,expense,35.0,EUR
+2022-05-23,online_payment,Electricity,expense,420.0,EUR
+2022-05-24,online_payment,Food,expense,100.0,EUR
+2022-05-24,online_payment,Others,expense,70.0,EUR
+2022-05-24,online_payment,Transportation,expense,20.0,EUR
+2022-05-25,online_payment,Grocery,expense,399.49,EUR
+2022-05-25,online_payment,Transportation,expense,20.0,EUR
+2022-05-26,online_payment,Food,expense,3.0,EUR
+2022-05-27,online_payment,Phone,expense,90.0,EUR
+2022-05-27,online_payment,Others,expense,10.0,EUR
+2022-05-28,online_payment,Phone,expense,100.0,EUR
+2022-05-28,online_payment,Food,expense,30.0,EUR
+2022-05-29,online_payment,Grocery,expense,164.87,EUR
+2022-05-29,online_payment,Transportation,expense,20.0,EUR
+2022-05-30,online_payment,Home,expense,3000.0,EUR
+2022-05-30,online_payment,Debt repayment,expense,1670.0,EUR
+2022-05-31,online_payment,Home,expense,300.0,EUR
+2022-05-31,online_payment,Food,expense,50.0,EUR
+2022-05-31,online_payment,Bank fees,expense,15.0,EUR
+2022-06-01,online_payment,Debt repayment,expense,1130.0,EUR
+2022-06-01,online_payment,Grocery,expense,749.3,EUR
+2022-06-01,online_payment,Transportation,expense,20.0,EUR
+2022-06-02,online_payment,Electricity,expense,130.61,EUR
+2022-06-02,online_payment,Phone,expense,90.0,EUR
+2022-06-03,online_payment,Others,expense,15.0,EUR
+2022-06-03,online_payment,Food,expense,10.0,EUR
+2022-06-03,online_payment,Food,expense,3.0,EUR
+2022-06-04,online_payment,Others,expense,1000.0,EUR
+2022-06-05,online_payment,Grocery,expense,207.0,EUR
+2022-06-05,online_payment,Transportation,expense,20.0,EUR
+2022-06-08,online_payment,Grocery,expense,368.94,EUR
+2022-06-08,online_payment,Phone,expense,90.0,EUR
+2022-06-08,online_payment,Transportation,expense,20.0,EUR
+2022-06-09,online_payment,Food,expense,3.0,EUR
+2022-06-12,online_payment,Grocery,expense,373.7,EUR
+2022-06-12,online_payment,Transportation,expense,20.0,EUR
+2022-06-15,online_payment,Home,expense,3000.0,EUR
+2022-06-15,online_payment,Debt repayment,expense,1670.0,EUR
+2022-06-15,online_payment,Others,expense,650.0,EUR
+2022-06-15,online_payment,Grocery,expense,284.77,EUR
+2022-06-15,online_payment,Phone,expense,90.0,EUR
+2022-06-15,online_payment,Transportation,expense,20.0,EUR
+2022-06-16,online_payment,Others,expense,212.5,EUR
+2022-06-16,online_payment,Others,expense,104.0,EUR
+2022-06-16,online_payment,Grocery,expense,104.0,EUR
+2022-06-16,online_payment,Transportation,expense,85.0,EUR
+2022-06-17,online_payment,Others,expense,10.0,EUR
+2022-06-17,online_payment,Food,expense,3.0,EUR
+2022-06-19,online_payment,Electricity,expense,385.0,EUR
+2022-06-19,online_payment,Grocery,expense,358.0,EUR
+2022-06-19,online_payment,Transportation,expense,20.0,EUR
+2022-06-20,online_payment,Debt repayment,expense,17.3,EUR
+2022-06-22,online_payment,Grocery,expense,420.51,EUR
+2022-06-22,online_payment,Phone,expense,90.0,EUR
+2022-06-22,online_payment,Transportation,expense,20.0,EUR
+2022-06-23,online_payment,Electricity,expense,130.61,EUR
+2022-06-24,online_payment,Food,expense,20.0,EUR
+2022-06-25,online_payment,Food,expense,3.0,EUR
+2022-06-26,online_payment,Grocery,expense,412.0,EUR
+2022-06-26,online_payment,Phone,expense,90.0,EUR
+2022-06-26,online_payment,Transportation,expense,35.0,EUR
+2022-06-29,online_payment,Others,expense,1000.0,EUR
+2022-06-29,online_payment,Grocery,expense,433.85,EUR
+2022-06-29,online_payment,Transportation,expense,35.0,EUR
+2022-06-30,online_payment,Home,expense,5000.0,EUR
+2022-06-30,online_payment,Home,expense,3000.0,EUR
+2022-06-30,online_payment,Debt repayment,expense,2800.0,EUR
+2022-06-30,online_payment,Home,expense,300.0,EUR
+2022-06-30,online_payment,Others,expense,255.15,EUR
+2022-06-30,online_payment,Food,expense,65.0,EUR
+2022-06-30,online_payment,Transportation,expense,35.0,EUR
+2022-07-01,online_payment,Food,expense,23.0,EUR
+2022-07-02,online_payment,Phone,expense,90.0,EUR
+2022-07-03,online_payment,Food,expense,162.0,EUR
+2022-07-04,online_payment,Home,expense,200.0,EUR
+2022-07-05,online_payment,Food,expense,64.0,EUR
+2022-07-06,online_payment,Grocery,expense,662.12,EUR
+2022-07-06,online_payment,Transportation,expense,35.0,EUR
+2022-07-08,online_payment,Phone,expense,90.0,EUR
+2022-07-08,online_payment,Others,expense,10.0,EUR
+2022-07-08,online_payment,Food,expense,3.0,EUR
+2022-07-09,online_payment,Food,expense,164.0,EUR
+2022-07-11,online_payment,Food,expense,94.0,EUR
+2022-07-11,online_payment,Food,expense,23.0,EUR
+2022-07-12,online_payment,Bank fees,expense,25.0,EUR
+2022-07-13,online_payment,Grocery,expense,498.3,EUR
+2022-07-13,online_payment,Transportation,expense,35.0,EUR
+2022-07-14,online_payment,Others,expense,435.0,EUR
+2022-07-14,online_payment,Transportation,expense,111.0,EUR
+2022-07-14,online_payment,Food,expense,110.0,EUR
+2022-07-14,online_payment,Phone,expense,90.0,EUR
+2022-07-14,online_payment,Food,expense,18.0,EUR
+2022-07-15,online_payment,Home,expense,5000.0,EUR
+2022-07-15,online_payment,Home,expense,3000.0,EUR
+2022-07-15,online_payment,Debt repayment,expense,1670.0,EUR
+2022-07-15,online_payment,Others,expense,1300.0,EUR
+2022-07-16,online_payment,Food,expense,165.0,EUR
+2022-07-18,online_payment,Others,expense,700.0,EUR
+2022-07-18,online_payment,Electricity,expense,368.0,EUR
+2022-07-18,online_payment,Food,expense,109.0,EUR
+2022-07-18,online_payment,Bank fees,expense,30.0,EUR
+2022-07-19,online_payment,Food,expense,30.0,EUR
+2022-07-20,online_payment,Grocery,expense,745.74,EUR
+2022-07-20,online_payment,Transportation,expense,55.0,EUR
+2022-07-21,online_payment,Debt repayment,expense,5.04,EUR
+2022-07-23,online_payment,Food,expense,93.0,EUR
+2022-07-27,online_payment,Grocery,expense,521.9,EUR
+2022-07-27,online_payment,Others,expense,221.5,EUR
+2022-07-27,online_payment,Food,expense,100.0,EUR
+2022-07-27,online_payment,Phone,expense,90.0,EUR
+2022-07-27,online_payment,Others,expense,70.0,EUR
+2022-07-27,online_payment,Transportation,expense,40.0,EUR
+2022-07-27,online_payment,Bank fees,expense,25.0,EUR
+2022-07-28,online_payment,Electricity,expense,130.61,EUR
+2022-07-29,online_payment,Others,expense,1000.0,EUR
+2022-07-30,online_payment,Home,expense,3000.0,EUR
+2022-07-30,online_payment,Debt repayment,expense,2800.0,EUR
+2022-07-31,online_payment,Phone,expense,90.0,EUR
+2022-08-02,online_payment,Phone,expense,99.0,EUR
+2022-08-04,online_payment,Grocery,expense,639.05,EUR
+2022-08-04,online_payment,Home,expense,300.0,EUR
+2022-08-04,online_payment,Transportation,expense,55.0,EUR
+2022-08-06,online_payment,Phone,expense,90.0,EUR
+2022-08-08,online_payment,Food,expense,74.0,EUR
+2022-08-10,online_payment,Grocery,expense,731.25,EUR
+2022-08-10,online_payment,Transportation,expense,35.0,EUR
+2022-08-11,online_payment,Electricity,expense,376.5,EUR
+2022-08-12,online_payment,Others,expense,10.0,EUR
+2022-08-12,online_payment,Food,expense,10.0,EUR
+2022-08-13,online_payment,Phone,expense,90.0,EUR
+2022-08-14,online_payment,Debt repayment,expense,1670.0,EUR
+2022-08-14,online_payment,Bank fees,expense,10.0,EUR
+2022-08-15,online_payment,Home,expense,5000.0,EUR
+2022-08-15,online_payment,Home,expense,3000.0,EUR
+2022-08-15,online_payment,Food,expense,143.0,EUR
+2022-08-17,online_payment,Grocery,expense,603.0,EUR
+2022-08-17,online_payment,Transportation,expense,35.0,EUR
+2022-08-18,online_payment,Phone,expense,90.0,EUR
+2022-08-19,online_payment,Others,expense,1300.0,EUR
+2022-08-20,online_payment,Debt repayment,expense,9.05,EUR
+2022-08-22,online_payment,Food,expense,150.0,EUR
+2022-08-24,online_payment,Grocery,expense,409.4,EUR
+2022-08-24,online_payment,Food,expense,65.0,EUR
+2022-08-24,online_payment,Transportation,expense,35.0,EUR
+2022-08-25,online_payment,Phone,expense,90.0,EUR
+2022-08-27,online_payment,Electricity,expense,130.61,EUR
+2022-08-28,online_payment,Home,expense,5000.0,EUR
+2022-08-28,online_payment,Home,expense,3000.0,EUR
+2022-08-28,online_payment,Others,expense,3000.0,EUR
+2022-08-28,online_payment,Debt repayment,expense,2800.0,EUR
+2022-08-28,online_payment,Bank fees,expense,10.0,EUR
+2022-08-29,online_payment,Food,expense,43.0,EUR
+2022-08-30,online_payment,Grocery,expense,500.6,EUR
+2022-08-30,online_payment,Phone,expense,90.0,EUR
+2022-08-30,online_payment,Transportation,expense,55.0,EUR
+2022-09-02,online_payment,Others,expense,10.0,EUR
+2022-09-02,online_payment,Food,expense,3.0,EUR
+2022-09-04,online_payment,Others,expense,3000.0,EUR
+2022-09-04,online_payment,Home,expense,300.0,EUR
+2022-09-05,online_payment,Phone,expense,90.0,EUR
+2022-09-05,online_payment,Food,expense,60.0,EUR
+2022-09-06,online_payment,Food,expense,118.0,EUR
+2022-09-07,online_payment,Grocery,expense,561.81,EUR
+2022-09-07,online_payment,Transportation,expense,55.0,EUR
+2022-09-07,online_payment,Food,expense,23.0,EUR
+2022-09-08,online_payment,Food,expense,27.0,EUR
+2022-09-09,online_payment,Food,expense,3.0,EUR
+2022-09-10,online_payment,Food,expense,128.0,EUR
+2022-09-11,online_payment,Home,expense,100.0,EUR
+2022-09-12,online_payment,Food,expense,96.0,EUR
+2022-09-12,online_payment,Phone,expense,90.0,EUR
+2022-09-14,online_payment,Home,expense,3000.0,EUR
+2022-09-14,online_payment,Debt repayment,expense,1670.0,EUR
+2022-09-14,online_payment,Others,expense,1300.0,EUR
+2022-09-14,online_payment,Bank fees,expense,10.0,EUR
+2022-09-15,online_payment,Grocery,expense,419.51,EUR
+2022-09-15,online_payment,Phone,expense,199.0,EUR
+2022-09-16,online_payment,Others,expense,10.0,EUR
+2022-09-17,online_payment,Electricity,expense,400.0,EUR
+2022-09-18,online_payment,Food,expense,267.0,EUR
+2022-09-18,online_payment,Transportation,expense,55.0,EUR
+2022-09-20,online_payment,Food,expense,88.0,EUR
+2022-09-20,online_payment,Debt repayment,expense,4.86,EUR
+2022-09-21,online_payment,Grocery,expense,713.67,EUR
+2022-09-21,online_payment,Transportation,expense,55.0,EUR
+2022-09-22,online_payment,Phone,expense,199.0,EUR
+2022-09-24,online_payment,Grocery,expense,429.4,EUR
+2022-09-24,online_payment,Transportation,expense,35.0,EUR
+2022-09-25,online_payment,Home,expense,125.0,EUR
+2022-09-26,online_payment,Electricity,expense,130.61,EUR
+2022-09-27,online_payment,Others,expense,2000.0,EUR
+2022-09-27,online_payment,Phone,expense,90.0,EUR
+2022-09-27,online_payment,Food,expense,89.0,EUR
+2022-09-28,online_payment,Others,expense,1540.0,EUR
+2022-09-28,online_payment,Grocery,expense,317.0,EUR
+2022-09-28,online_payment,Transportation,expense,80.0,EUR
+2022-09-28,online_payment,Food,expense,20.0,EUR
+2022-09-29,online_payment,Home,expense,5500.0,EUR
+2022-09-29,online_payment,Home,expense,3000.0,EUR
+2022-09-29,online_payment,Debt repayment,expense,2800.0,EUR
+2022-09-30,online_payment,Bank fees,expense,600.0,EUR
+2022-09-30,online_payment,Grocery,expense,401.71,EUR
+2022-09-30,online_payment,Transportation,expense,55.0,EUR
+2022-09-30,online_payment,Bank fees,expense,40.0,EUR
+2022-10-01,online_payment,Home,expense,6800.0,EUR
+2022-10-02,online_payment,Phone,expense,199.0,EUR
+2022-10-03,online_payment,Food,expense,104.0,EUR
+2022-10-04,online_payment,Home,expense,2500.0,EUR
+2022-10-05,online_payment,Grocery,expense,592.75,EUR
+2022-10-05,online_payment,Transportation,expense,55.0,EUR
+2022-10-06,online_payment,Home,expense,2000.0,EUR
+2022-10-06,online_payment,Home,expense,200.0,EUR
+2022-10-07,online_payment,Home,expense,15000.0,EUR
+2022-10-07,online_payment,Food,expense,96.0,EUR
+2022-10-08,online_payment,Home,expense,1500.0,EUR
+2022-10-08,online_payment,Phone,expense,199.0,EUR
+2022-10-08,online_payment,Food,expense,59.0,EUR
+2022-10-09,online_payment,Grocery,expense,236.5,EUR
+2022-10-09,online_payment,Others,expense,220.0,EUR
+2022-10-09,online_payment,Transportation,expense,55.0,EUR
+2022-10-09,online_payment,Bank fees,expense,18.0,EUR
+2022-10-12,online_payment,Home,expense,15000.0,EUR
+2022-10-12,online_payment,Grocery,expense,481.75,EUR
+2022-10-12,online_payment,Bank fees,expense,50.0,EUR
+2022-10-12,online_payment,Transportation,expense,40.0,EUR
+2022-10-14,online_payment,Home,expense,3000.0,EUR
+2022-10-14,online_payment,Debt repayment,expense,1670.0,EUR
+2022-10-14,online_payment,Others,expense,1300.0,EUR
+2022-10-14,online_payment,Debt repayment,expense,1150.0,EUR
+2022-10-14,online_payment,Others,expense,10.0,EUR
+2022-10-14,online_payment,Food,expense,3.0,EUR
+2022-10-16,online_payment,Home,expense,8000.0,EUR
+2022-10-16,online_payment,Home,expense,100.0,EUR
+2022-10-16,online_payment,Phone,expense,90.0,EUR
+2022-10-17,online_payment,Grocery,expense,409.75,EUR
+2022-10-17,online_payment,Transportation,expense,55.0,EUR
+2022-10-18,online_payment,Food,expense,99.0,EUR
+2022-10-18,online_payment,Phone,expense,99.0,EUR
+2022-10-19,online_payment,Electricity,expense,527.0,EUR
+2022-10-19,online_payment,Grocery,expense,344.53,EUR
+2022-10-19,online_payment,Transportation,expense,55.0,EUR
+2022-10-21,online_payment,Food,expense,3.0,EUR
+2022-10-22,online_payment,Food,expense,160.0,EUR
+2022-10-22,online_payment,Phone,expense,90.0,EUR
+2022-10-24,online_payment,Eating,expense,255.0,EUR
+2022-10-25,online_payment,Food,expense,136.0,EUR
+2022-10-26,online_payment,Grocery,expense,416.0,EUR
+2022-10-29,online_payment,Debt repayment,expense,1150.0,EUR
+2022-10-29,online_payment,Others,expense,1000.0,EUR
+2022-10-29,online_payment,Phone,expense,99.0,EUR
+2022-10-29,online_payment,Food,expense,55.0,EUR
+2022-10-30,online_payment,Debt repayment,expense,1670.0,EUR
+2022-10-30,online_payment,Debt repayment,expense,1130.0,EUR
+2022-10-30,online_payment,Bank fees,expense,300.0,EUR
+2022-10-30,online_payment,Phone,expense,90.0,EUR
+2022-10-30,online_payment,Food,expense,24.0,EUR
+2022-10-30,online_payment,Debt repayment,expense,6.62,EUR
+2022-11-02,online_payment,Grocery,expense,447.4,EUR
+2022-11-02,online_payment,Others,expense,70.0,EUR
+2022-11-02,online_payment,Transportation,expense,55.0,EUR
+2022-11-03,online_payment,Electricity,expense,130.59,EUR
+2022-11-04,online_payment,Phone,expense,99.0,EUR
+2022-11-05,online_payment,Food,expense,60.0,EUR
+2022-11-06,online_payment,Home,expense,2000.0,EUR
+2022-11-06,online_payment,Home,expense,200.0,EUR
+2022-11-06,online_payment,Food,expense,46.0,EUR
+2022-11-07,online_payment,Grocery,expense,573.75,EUR
+2022-11-07,online_payment,Transportation,expense,20.0,EUR
+2022-11-09,online_payment,Grocery,expense,300.0,EUR
+2022-11-09,online_payment,Transportation,expense,35.0,EUR
+2022-11-11,online_payment,Others,expense,4000.0,EUR
+2022-11-13,online_payment,Debt repayment,expense,1670.0,EUR
+2022-11-13,online_payment,Others,expense,1300.0,EUR
+2022-11-14,online_payment,Food,expense,270.0,EUR
+2022-11-14,online_payment,Transportation,expense,55.0,EUR
+2022-11-16,online_payment,Grocery,expense,360.65,EUR
+2022-11-16,online_payment,Transportation,expense,55.0,EUR
+2022-11-17,online_payment,Others,expense,2499.0,EUR
+2022-11-17,online_payment,Others,expense,190.0,EUR
+2022-11-17,online_payment,Transportation,expense,65.0,EUR
+2022-11-18,online_payment,Phone,expense,90.0,EUR
+2022-11-19,online_payment,Grocery,expense,512.1,EUR
+2022-11-19,online_payment,Others,expense,31.48,EUR
+2022-11-19,online_payment,Transportation,expense,20.0,EUR
+2022-11-20,online_payment,Debt repayment,expense,3.35,EUR
+2022-11-21,online_payment,Home,expense,3000.0,EUR
+2022-11-22,online_payment,Home,expense,500.0,EUR
+2022-11-22,online_payment,Food,expense,40.0,EUR
+2022-11-24,online_payment,Grocery,expense,335.68,EUR
+2022-11-24,online_payment,Transportation,expense,70.0,EUR
+2022-11-26,online_payment,Others,expense,725.0,EUR
+2022-11-27,online_payment,Others,expense,1000.0,EUR
+2022-11-27,online_payment,Electricity,expense,390.0,EUR
+2022-11-28,online_payment,Debt repayment,expense,2300.0,EUR
+2022-11-28,online_payment,Grocery,expense,367.43,EUR
+2022-11-29,online_payment,Home,expense,3000.0,EUR
+2022-11-29,online_payment,Debt repayment,expense,1670.0,EUR
+2022-11-29,online_payment,Grocery,expense,629.1,EUR
+2022-11-29,online_payment,Transportation,expense,110.0,EUR
+2022-11-29,online_payment,Phone,expense,90.0,EUR
+2022-11-29,online_payment,Transportation,expense,55.0,EUR
+2022-11-30,online_payment,Food,expense,137.0,EUR
+2022-12-02,online_payment,Others,expense,10.0,EUR
+2022-12-03,online_payment,Food,expense,130.0,EUR
+2022-12-04,online_payment,Debt repayment,expense,72.5,EUR
+2022-12-05,online_payment,Home,expense,3500.0,EUR
+2022-12-05,online_payment,Food,expense,148.0,EUR
+2022-12-05,online_payment,Phone,expense,90.0,EUR
+2022-12-07,online_payment,Grocery,expense,600.96,EUR
+2022-12-07,online_payment,Home,expense,300.0,EUR
+2022-12-07,online_payment,Transportation,expense,55.0,EUR
+2022-12-09,online_payment,Food,expense,70.0,EUR
+2022-12-09,online_payment,Others,expense,10.0,EUR
+2022-12-10,online_payment,Grocery,expense,344.35,EUR
+2022-12-10,online_payment,Transportation,expense,35.0,EUR
+2022-12-11,online_payment,Phone,expense,90.0,EUR
+2022-12-13,online_payment,Others,expense,1000.0,EUR
+2022-12-14,online_payment,Home,expense,5500.0,EUR
+2022-12-14,online_payment,Home,expense,3000.0,EUR
+2022-12-14,online_payment,Debt repayment,expense,2284.67,EUR
+2022-12-14,online_payment,Debt repayment,expense,1500.0,EUR
+2022-12-14,online_payment,Others,expense,1300.0,EUR
+2022-12-14,online_payment,Debt repayment,expense,1150.0,EUR
+2022-12-14,online_payment,Others,expense,461.5,EUR
+2022-12-14,online_payment,Grocery,expense,270.51,EUR
+2022-12-14,online_payment,Transportation,expense,55.0,EUR
+2022-12-15,online_payment,Transportation,expense,470.0,EUR
+2022-12-15,online_payment,Electricity,expense,450.0,EUR
+2022-12-15,online_payment,Others,expense,250.0,EUR
+2022-12-15,online_payment,Others,expense,250.0,EUR
+2022-12-15,online_payment,Food,expense,135.0,EUR
+2022-12-15,online_payment,Home,expense,100.0,EUR
+2022-12-15,online_payment,Bank fees,expense,26.0,EUR
+2022-12-15,online_payment,Bank fees,expense,15.0,EUR
+2022-12-17,online_payment,Food,expense,40.0,EUR
+2022-12-18,online_payment,Grocery,expense,562.25,EUR
+2022-12-18,online_payment,Phone,expense,90.0,EUR
+2022-12-18,online_payment,Others,expense,42.5,EUR
+2022-12-18,online_payment,Transportation,expense,35.0,EUR
+2022-12-20,online_payment,Others,expense,286.0,EUR
+2022-12-20,online_payment,Debt repayment,expense,10.01,EUR
+2022-12-21,online_payment,Grocery,expense,538.25,EUR
+2022-12-21,online_payment,Transportation,expense,35.0,EUR
+2022-12-22,online_payment,Others,expense,125.0,EUR
+2022-12-22,online_payment,Others,expense,50.0,EUR
+2022-12-26,online_payment,Phone,expense,90.0,EUR
+2022-12-27,online_payment,Others,expense,3000.0,EUR
+2022-12-27,online_payment,Eating,expense,194.0,EUR
+2022-12-27,online_payment,Transportation,expense,55.0,EUR
+2022-12-28,online_payment,Grocery,expense,4985.05,EUR
+2022-12-28,online_payment,Home,expense,3810.0,EUR
+2022-12-28,online_payment,Transportation,expense,694.0,EUR
+2022-12-29,online_payment,Debt repayment,expense,3600.0,EUR
+2022-12-29,online_payment,Bank fees,expense,10.0,EUR
+2022-12-30,online_payment,Home,expense,3500.0,EUR
+2022-12-30,online_payment,Phone,expense,199.0,EUR
+2023-01-05,online_payment,Phone,expense,99.0,EUR
+2023-01-05,online_payment,Phone,expense,1337.78,EUR
+2023-01-05,online_payment,Debt repayment,expense,209.75,EUR
+2023-01-05,online_payment,Eating,expense,753.0,EUR
+2023-01-07,online_payment,Home,expense,200.0,EUR
+2023-01-09,online_payment,Phone,expense,199.0,EUR
+2023-01-11,online_payment,Others,expense,2000.0,EUR
+2023-01-11,online_payment,Bank fees,expense,15.0,EUR
+2023-01-15,online_payment,Debt repayment,expense,2350.0,EUR
+2023-01-15,online_payment,Others,expense,1300.0,EUR
+2023-01-15,online_payment,Home,expense,3000.0,EUR
+2023-01-15,online_payment,Debt repayment,expense,389.25,EUR
+2023-01-15,online_payment,Debt repayment,expense,2284.67,EUR
+2023-01-15,online_payment,Bank fees,expense,10.0,EUR
+2023-01-16,online_payment,Phone,expense,199.0,EUR
+2023-01-17,online_payment,Bank fees,expense,25.0,EUR
+2023-01-19,online_payment,Others,expense,900.0,EUR
+2023-01-20,online_payment,Debt repayment,expense,16.22,EUR
+2023-01-23,online_payment,Phone,expense,199.0,EUR
+2023-01-23,online_payment,Others,expense,1000.0,EUR
+2023-01-25,online_payment,Transportation,expense,310.0,EUR
+2023-01-25,online_payment,Grocery,expense,1070.5,EUR
+2023-01-25,online_payment,Electricity,expense,1000.0,EUR
+2023-01-25,online_payment,Phone,expense,50.0,EUR
+2023-01-29,online_payment,Bank fees,expense,10.0,EUR
+2023-01-29,online_payment,Debt repayment,expense,3480.0,EUR
+2023-01-29,online_payment,Home,expense,3000.0,EUR
+2023-01-29,online_payment,Others,expense,250.0,EUR
+2023-01-30,online_payment,Phone,expense,199.0,EUR
+2023-02-06,online_payment,Phone,expense,199.0,EUR
+2023-02-06,online_payment,Bank fees,expense,15.0,EUR
+2023-02-06,online_payment,Home,expense,2000.0,EUR
+2023-02-07,online_payment,Home,expense,300.0,EUR
+2023-02-12,online_payment,Bank fees,expense,15.0,EUR
+2023-02-13,online_payment,Home,expense,4500.0,EUR
+2023-02-14,online_payment,Debt repayment,expense,2284.67,EUR
+2023-02-14,online_payment,Debt repayment,expense,2350.0,EUR
+2023-02-14,online_payment,Others,expense,1000.0,EUR
+2023-02-14,online_payment,Others,expense,1300.0,EUR
+2023-02-14,online_payment,Bank fees,expense,10.0,EUR
+2023-02-17,online_payment,Phone,expense,199.0,EUR
+2023-02-17,online_payment,Home,expense,1000.0,EUR
+2023-02-17,online_payment,Others,expense,1000.0,EUR
+2023-02-22,online_payment,Phone,expense,199.0,EUR
+2023-02-22,online_payment,Others,expense,125.0,EUR
+2023-02-23,online_payment,Home,expense,1000.0,EUR
+2023-02-28,online_payment,Home,expense,3000.0,EUR
+2023-02-28,online_payment,Others,expense,800.0,EUR
+2023-02-28,online_payment,Bank fees,expense,15.0,EUR
+2023-02-28,online_payment,Phone,expense,1000.0,EUR
+2023-02-28,online_payment,Others,expense,500.0,EUR
+2023-03-01,online_payment,Debt repayment,expense,2350.0,EUR
+2023-03-01,online_payment,Debt repayment,expense,1130.0,EUR
+2023-03-01,online_payment,Bank fees,expense,15.0,EUR
+2023-03-01,online_payment,Others,expense,200.0,EUR
+2023-03-08,online_payment,Food,expense,1000.0,EUR
+2023-03-08,online_payment,Bank fees,expense,25.0,EUR
+2023-03-10,online_payment,Home,expense,215.0,EUR
+2023-03-14,online_payment,Bank fees,expense,40.0,EUR
+2023-03-15,online_payment,Home,expense,3000.0,EUR
+2023-03-15,online_payment,Debt repayment,expense,1700.0,EUR
+2023-03-15,online_payment,Others,expense,1300.0,EUR
+2023-03-15,online_payment,Debt repayment,expense,43.9,EUR
+2023-03-15,online_payment,Eating,expense,3000.0,EUR
+2023-03-22,online_payment,Home,expense,2500.0,EUR
+2023-03-22,online_payment,Bank fees,expense,15.0,EUR
+2023-03-24,online_payment,Phone,expense,20.0,EUR
+2023-03-31,online_payment,Others,expense,1000.0,EUR
+2023-03-31,online_payment,Debt repayment,expense,2284.67,EUR
+2023-03-31,online_payment,Home,expense,2000.0,EUR
+2023-03-30,online_payment,Eating,expense,700.0,EUR
+2023-03-31,online_payment,Phone,expense,199.0,EUR
+2023-03-31,online_payment,Bank fees,expense,10.0,EUR
+2023-03-31,online_payment,Bank fees,expense,10.0,EUR
+2023-04-01,online_payment,Bank fees,expense,25.0,EUR
+2023-04-03,online_payment,Bank fees,expense,525.0,EUR
+2023-04-04,online_payment,Home,expense,2000.0,EUR
+2023-04-06,online_payment,Phone,expense,199.0,EUR
+2023-04-08,online_payment,Phone,expense,499.0,EUR
+2023-04-10,online_payment,Home,expense,200.0,EUR
+2023-04-15,online_payment,Debt repayment,expense,3150.0,EUR
+2023-04-15,online_payment,Bank fees,expense,45.0,EUR
+2023-04-15,online_payment,Grocery,expense,2264.75,EUR
+2023-04-15,online_payment,Phone,expense,740.0,EUR
+2023-04-15,online_payment,Others,expense,1300.0,EUR
+2023-04-15,online_payment,Others,expense,900.0,EUR
+2023-04-15,online_payment,Others,expense,125.0,EUR
+2023-04-15,online_payment,Debt repayment,expense,1700.0,EUR
+2023-04-19,online_payment,Phone,expense,299.0,EUR
+2023-04-26,online_payment,Food,expense,500.0,EUR
+2023-04-29,online_payment,Debt repayment,expense,2284.67,EUR
+2023-04-30,online_payment,Home,expense,3000.0,EUR
+2023-04-30,online_payment,Others,expense,1000.0,EUR
+2023-04-30,online_payment,Bank fees,expense,15.0,EUR
+2023-05-04,online_payment,Bank fees,expense,18.0,EUR
+2023-05-10,online_payment,Home,expense,1300.0,EUR
+2023-05-11,online_payment,Home,expense,200.0,EUR
+2023-05-12,online_payment,Others,expense,1000.0,EUR
+2023-05-13,online_payment,Phone,expense,299.0,EUR
+2023-05-15,online_payment,Debt repayment,expense,1700.0,EUR
+2023-05-15,online_payment,Debt repayment,expense,3150.0,EUR
+2023-05-15,online_payment,Home,expense,3000.0,EUR
+2023-05-15,online_payment,Others,expense,1300.0,EUR
+2023-05-18,online_payment,Eating,expense,1000.0,EUR
+2023-05-19,online_payment,Phone,expense,299.0,EUR
+2023-05-20,online_payment,Phone,expense,499.0,EUR
+2023-05-31,online_payment,Electricity,expense,1000.0,EUR
+2023-05-31,online_payment,Home,expense,3000.0,EUR
+2023-05-31,online_payment,Food,expense,500.0,EUR
+2023-05-31,online_payment,Phone,expense,100.0,EUR
+2023-05-31,online_payment,Debt repayment,expense,2284.67,EUR
+2023-05-31,online_payment,Others,expense,1000.0,EUR
+2023-05-31,online_payment,Debt repayment,expense,7225.01,EUR
+2023-06-11,online_payment,Home,expense,215.0,EUR
+2023-06-15,online_payment,Home,expense,3000.0,EUR
+2023-06-15,online_payment,Debt repayment,expense,3150.0,EUR
+2023-06-15,online_payment,Others,expense,125.0,EUR
+2023-06-15,online_payment,Others,expense,1300.0,EUR
+2023-06-15,online_payment,Phone,expense,549.0,EUR
+2023-06-23,online_payment,Home,expense,2020.0,EUR
+2023-06-28,online_payment,Phone,expense,50.0,EUR
+2023-06-28,online_payment,Electricity,expense,1500.0,EUR
+2023-06-30,online_payment,Debt repayment,expense,2284.67,EUR
+2023-06-30,online_payment,Bank fees,expense,30.0,EUR
+2023-06-30,online_payment,Home,expense,3000.0,EUR
+2023-06-30,online_payment,Others,expense,1000.0,EUR
+2023-07-05,online_payment,Phone,expense,66.0,EUR
+2023-07-06,online_payment,Phone,expense,50.0,EUR
+2023-07-06,online_payment,Food,expense,1100.0,EUR
+2023-07-12,online_payment,Transportation,expense,190.0,EUR
+2023-07-12,online_payment,Others,expense,300.0,EUR
+2023-07-14,online_payment,Phone,expense,179.0,EUR
+2023-07-15,online_payment,Home,expense,3000.0,EUR
+2023-07-15,online_payment,Others,expense,1300.0,EUR
+2023-07-15,online_payment,Others,expense,1200.0,EUR
+2023-07-15,online_payment,Debt repayment,expense,2284.67,EUR
+2023-07-15,online_payment,Debt repayment,expense,3149.14,EUR
+2023-07-20,online_payment,Bank fees,expense,10.0,EUR
+2023-07-23,online_payment,Food,expense,2000.0,EUR
+2023-07-25,online_payment,Electricity,expense,1000.0,EUR
+2023-07-25,online_payment,Grocery,expense,1000.0,EUR
+2023-07-29,online_payment,Bank fees,expense,25.0,EUR
+2023-07-29,online_payment,Others,expense,8124.25,EUR
+2023-07-29,online_payment,Home,expense,3000.0,EUR
+2023-07-29,online_payment,Others,expense,1000.0,EUR
+2023-08-01,online_payment,Food,expense,47.0,EUR
+2023-08-02,online_payment,Bank fees,expense,12.0,EUR
+2023-08-04,online_payment,Bank fees,expense,20.0,EUR
+2023-08-15,online_payment,Others,expense,5000.0,EUR
+2023-08-15,online_payment,Debt repayment,expense,3149.14,EUR
+2023-08-15,online_payment,Home,expense,3000.0,EUR
+2023-08-15,online_payment,Others,expense,200.0,EUR
+2023-08-16,online_payment,Bank fees,expense,10.0,EUR
+2023-08-16,online_payment,Debt repayment,expense,3163.0,EUR
+2023-08-16,online_payment,Others,expense,1300.0,EUR
+2023-08-16,online_payment,Debt repayment,expense,2284.67,EUR
+2023-08-16,online_payment,Transportation,expense,600.0,EUR
+2023-08-17,online_payment,Food,expense,200.0,EUR
+2023-08-23,online_payment,Home,expense,3000.0,EUR
+2023-08-30,online_payment,Eating,expense,3000.0,EUR
+2023-08-31,online_payment,Others,expense,1193.59,EUR
+2023-08-31,online_payment,Others,expense,1863.0,EUR
+2023-08-31,online_payment,Home,expense,3000.0,EUR
+2023-08-31,online_payment,Others,expense,1000.0,EUR
