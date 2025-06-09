@@ -55,6 +55,9 @@ st.markdown("""
     border-color: yellow;
     color: yellow;
 }
+    .st-emotion-cache-x1bvup:focus-within {
+    border-color: yellow !important;
+}
     </style>
 """, unsafe_allow_html=True)
 
@@ -67,10 +70,10 @@ def type_text(text, container, delay=0.035):
         container.markdown(f"<div class='chat-bubble'>{displayed_text}</div>", unsafe_allow_html=True)
         time.sleep(delay)
 
-    if st.button("Show My Transactions", key="btn1"):
-        st.session_state.transfer_mode = False
-        st.session_state.chat_history.append(("user", "Show my transactions"))
-        st.session_state.chat_history.append(("bot", "What transactions would you like to see?"))
+    # if st.button("Show My Transactions", key="btn5"):
+    #     st.session_state.transfer_mode = False
+    #     st.session_state.chat_history.append(("user", "Show my transactions"))
+    #     st.session_state.chat_history.append(("bot", "What transactions would you like to see?"))
 
 # Combine both lines into one string
 full_text = "👋 Hi, I'm RAI\nWhat can I help you with today?"
@@ -134,7 +137,7 @@ st.markdown("<div class='custom-button-container'>", unsafe_allow_html=True)
 if st.button("Show My Transactions", key="btn1"):
     st.session_state.transfer_mode = False
     st.session_state.chat_history.append(("user", "Show my transactions"))
-    st.session_state.chat_history.append(("bot", "Here are your last 5 transactions..."))
+    st.session_state.chat_history.append(("bot", "What transactions would you like to see?"))
 
 if st.button("Help Me Transfer Money", key="btn2"):
     st.session_state.transfer_mode = True

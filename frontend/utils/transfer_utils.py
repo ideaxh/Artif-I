@@ -2,7 +2,7 @@ import re
 import cohere
 import json
 
-co = cohere.Client(api_key="")  # Replace with your key
+co = cohere.Client(api_key="FqKNvT8UV6daEZyTttXfJcZRdiubfq0gNpjBmqXu")  # Replace with your key
 
 def normalize_albanian_name(name: str) -> str:
     """
