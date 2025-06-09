@@ -4,7 +4,7 @@ import json
 import re
 import cohere
 
-co = cohere.ClientV2("")  # Replace with your actual key
+co = cohere.ClientV2("FqKNvT8UV6daEZyTttXfJcZRdiubfq0gNpjBmqXu")  # Replace with your actual key
 
 
 def _extract_json_from_response(text: str) -> dict:

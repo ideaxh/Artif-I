@@ -1,10 +1,17 @@
+import os
 import pandas as pd
+from pathlib import Path
 from datetime import datetime
 
 def get_top_spending_category_last_n_months(n=6):
     # Load your CSV
-    df = pd.read_csv("/Users/idea/Desktop/ai/Artif-I/backend/datasets/final/cleaned_expense_data.csv", parse_dates=["date"])
+    cwd = Path(__file__).parent.resolve()
+    relative_path = "../../datasets/final/cleaned_expense_data.csv"
+    full_path = (cwd / relative_path).resolve()
+    # path_with_forward_slashes = full_path.as_posix()
 
+    print(f"Full path: {full_path}")
+    df = pd.read_csv(full_path, parse_dates=["date"])
     # Filter data for last `n` months
     today = pd.Timestamp.today()
     cutoff_date = today - pd.DateOffset(months=n)
