@@ -16,62 +16,64 @@ st.markdown("<h2 style='text-align: center;'>👋 Hi, I'm RAI</h2>", unsafe_allo
 st.markdown("<p style='text-align: center;'>What can I help you with today?</p>", unsafe_allow_html=True)
 
 # --- Action Buttons ---
-col1, col2, col3, col4 = st.columns(4)
+with st.container():
+    st.markdown("<div style='max-width: 300px; margin: auto;'>", unsafe_allow_html=True)  # center container & set max width
 
-with col1:
-    if st.button("📄 Show My Transactions"):
+    if st.button("Show My Transactions", key="btn1"):
         st.session_state.transfer_mode = False
         st.session_state.chat_history.append(("user", "Show my transactions"))
         st.session_state.chat_history.append(("bot", "Here are your last 5 transactions..."))
 
-with col2:
-    if st.button("💸 Help Me Transfer Money"):
+    if st.button("Help Me Transfer Money", key="btn2"):
         st.session_state.transfer_mode = True
         st.session_state.chat_history.append(("user", "Help me transfer money"))
-        st.session_state.chat_history.append(("bot", "Sigurisht! Sa para dëshironi të transferoni dhe kujt?"))
+        st.session_state.chat_history.append(("bot", "Certainly! How much money do you want to transfer and to whom?"))
 
-with col3:
-    if st.button("📊 View Credit Score"):
+    if st.button("View Credit Score", key="btn3"):
         st.session_state.transfer_mode = False
         st.session_state.chat_history.append(("user", "View credit score"))
         st.session_state.chat_history.append(("bot", "Your current credit score is 768."))
 
-with col4:
-    if st.button("📊 Leftover Money Transfer"):
+    if st.button("Leftover Money Transfer", key="btn4"):
         st.session_state.transfer_mode = "leftover"
         st.session_state.chat_history.append(("user", "Leftover Money Transfer"))
-        st.session_state.chat_history.append(("bot", f"Ke {LEFTOVER_AMOUNT} {LEFTOVER_CURRENCY} të mbetura. Sa dëshiron të transferosh?"))
+        st.session_state.chat_history.append(("bot", f"You have {LEFTOVER_AMOUNT} {LEFTOVER_CURRENCY} left. Do you want to transfer to your savings account?"))
+
+    st.markdown("</div>", unsafe_allow_html=True)
 
 st.markdown("---")
 
 # --- Chat Input ---
-st.markdown("### 💬 Chat with Me")
+st.markdown("### Chat with Me")
 user_message = st.chat_input("Type or say something...")
 
 # --- Response Logic ---
 def get_bot_response(user_input):
-    if st.session_state.transfer_mode:
+    if st.session_state.transfer_mode == "leftover":
+        result = leftover_transfer_handler(user_input, LEFTOVER_AMOUNT, LEFTOVER_CURRENCY)
+        if result.startswith("How much exactly would"):
+            return result  # Ask again for specific input
+        st.session_state.transfer_mode = False
+        return result
+
+    elif st.session_state.transfer_mode:  # Only handles general transfers
         details = parse_transfer_command(user_input)
+        print(f"Details {details}")
         if details:
             details['recipient'] = normalize_albanian_name(details['recipient'])
             st.session_state.transfer_mode = False
             return perform_transfer(details['amount'], details['currency'], details['recipient'])
         else:
-            return "Nuk mund të kuptoj kërkesën për transfer. Mund të shkruash sërish?"
-    elif st.session_state.transfer_mode == "leftover":
-        result = leftover_transfer_handler(user_input, LEFTOVER_AMOUNT, LEFTOVER_CURRENCY)
-        if result.startswith("Sa saktësisht"):
-            return result  # Ask again for specific input
-        st.session_state.transfer_mode = False
-        return result
+            return "I don't uderstand your transfer request. Could you please ask again?"
 
+    # Other general cases
     user_input = user_input.lower()
     if "balance" in user_input:
         return "Your balance is $1,234.56."
     elif "credit score" in user_input:
         return "Your credit score is currently 768."
     elif "qoja" in user_input or "dërgo" in user_input:
-        return "Ju lutem klikoni butonin 💸 *Help Me Transfer Money* për të nisur një transferim."
+        return "Please click the *Help Me Transfer Money* button to begin a trsnafer."
     else:
         return "I'm here to help with transactions, transfers, and credit scores!"
 

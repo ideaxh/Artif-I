@@ -1,9 +1,13 @@
+import re
 import cohere
 import json
 
-co = cohere.Client(api_key="GENERATE_TEST_KEY")  # Replace with your key
+co = cohere.Client(api_key="")  # Replace with your key
 
 def normalize_albanian_name(name: str) -> str:
+    """
+    Normalize an Albanian name by removing suffixes and capitalizing.
+    """
     name = name.strip().capitalize()
     suffix_map = {
         "itës": "a", "ites": "a", "it": "i",
@@ -16,6 +20,9 @@ def normalize_albanian_name(name: str) -> str:
     return name
 
 def parse_transfer_command(user_input: str):
+    """
+    Extract transfer details (amount, currency, recipient) from user's command.
+    """
     try:
         response = co.chat(
             model='command-r',
@@ -24,25 +31,36 @@ def parse_transfer_command(user_input: str):
             prompt_truncation='OFF',
             temperature=0.3,
             preamble="""
-            Je një ndihmës bankar që flet shqip. 
-            Kur përdoruesi kërkon një transfer, kthe gjithmonë një JSON me fushat: amount (si numër), currency (EUR, USD, GBP, etj), dhe recipient (si emër).
-            Mos shpjego, kthe vetëm JSON-in.
+You are a banking assistant that speaks English.
+When the user requests a transfer, always return a JSON object with the following fields: amount (as a number), currency (EUR, USD, GBP, etc.), and recipient (a person's name).
+Do not explain anything — return only the JSON.
 
-            Emri i personit që merr paratë mund të jetë:
-            - në fillim, mes, ose në fund të fjalisë,
-            - përpara ose pas shumës
-            - me shkronjë të kapitalizuar ose jo.
+The recipient's name can appear:
+- at the beginning, middle, or end of the sentence,
+- before or after the amount,
+- capitalized or not.
 
-            Kur nxjerr emrin e personit, ktheje gjithmonë në trajtën emërore:
-            """
+When extracting the recipient's name, always return it in the nominative form (base name).
+"""
         )
-        parsed = json.loads(response.text.strip())
+
+        content = getattr(response, "text", "") or getattr(response, "message", {}).get("content", "")
+        print("[DEBUG] Raw response:", content)
+
+        # Remove Markdown-style ```json ... ``` if present
+        cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", content.strip(), flags=re.IGNORECASE)
+        parsed = json.loads(cleaned)
+
         if all(key in parsed for key in ["amount", "currency", "recipient"]):
             return parsed
         return None
+
     except Exception as e:
-        print(f"[ERROR] Gjatë analizimit: {e}")
+        print(f"[ERROR] During parsing: {e}")
         return None
 
 def perform_transfer(amount, currency, recipient):
-    return f"{amount} {currency} u transferuan me sukses te {recipient}."
+    """
+    Format the transfer confirmation message.
+    """
+    return f"{amount} {currency} were successfully transferred to {recipient}."
