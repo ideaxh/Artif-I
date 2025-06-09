@@ -5,6 +5,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "backend")))
 
 import streamlit as st
+import time
 from utils.transfer_utils import parse_transfer_command, normalize_albanian_name, perform_transfer
 from utils.leftover_utils import leftover_transfer_handler
 from config.smart_summary.smart_summary import get_top_spending_category_last_n_months
@@ -16,40 +17,141 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 if "transfer_mode" not in st.session_state:
     st.session_state.transfer_mode = False
+if "typed_intro" not in st.session_state:
+    st.session_state.typed_intro = False
 
 # --- Header ---from config.smart_summary.smart_summary import get_top_spending_category_last_n_months
 
 st.set_page_config(page_title="Banking Assistant", page_icon="💬", layout="centered")
-st.markdown("<h2 style='text-align: center;'>👋 Hi, I'm RAI</h2>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center;'>What can I help you with today?</p>", unsafe_allow_html=True)
 
-# --- Action Buttons ---
-with st.container():
-    st.markdown("<div style='max-width: 300px; margin: auto;'>", unsafe_allow_html=True)  # center container & set max width
+# Dark chat bubble styling
+st.markdown("""
+    <style>
+    .chat-bubble {
+        background-color: #2f2f2f;
+        padding: 1rem 1.5rem;
+        border-radius: 20px;
+        width: fit-content;
+        max-width: 80%;
+        margin: 2rem auto;
+        font-size: 18px;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        line-height: 1.5;
+    }
+    .st-emotion-cache-4zpzjl {
+            background-color: yellow !important;
+        }
+    .st-emotion-cache-ktz07o:active {
+            border-color: yellow !important;
+            color: yellow !important;
+        }
+    .st-emotion-cache-ktz07o:hover {
+            background-color: yellow !important;
+            border-color: yellow !important;
+            color: black !important;
+        }
+    .st-emotion-cache-ktz07o:focus:not(:active) {
+    border-color: yellow;
+    color: yellow;
+}
+    </style>
+""", unsafe_allow_html=True)
+
+
+# Simulate typing inside one bubble
+def type_text(text, container, delay=0.035):
+    displayed_text = ""
+    for char in text:
+        displayed_text += char
+        container.markdown(f"<div class='chat-bubble'>{displayed_text}</div>", unsafe_allow_html=True)
+        time.sleep(delay)
 
     if st.button("Show My Transactions", key="btn1"):
         st.session_state.transfer_mode = False
         st.session_state.chat_history.append(("user", "Show my transactions"))
         st.session_state.chat_history.append(("bot", "What transactions would you like to see?"))
 
-    if st.button("Help Me Transfer Money", key="btn2"):
-        st.session_state.transfer_mode = True
-        st.session_state.chat_history.append(("user", "Help me transfer money"))
-        st.session_state.chat_history.append(("bot", "Certainly! How much money do you want to transfer and to whom?"))
+# Combine both lines into one string
+full_text = "👋 Hi, I'm RAI\nWhat can I help you with today?"
 
-    if st.button("View Credit Score", key="btn3"):
-        st.session_state.transfer_mode = False
-        st.session_state.chat_history.append(("user", "View credit score"))
-        st.session_state.chat_history.append(("bot", "Your current credit score is 768."))
+# Render it only once
+chat_area = st.empty()
+if not st.session_state.typed_intro:
+    type_text(full_text, chat_area)
+    st.session_state.typed_intro = True
+else:
+    # Just display the full text without typing animation
+    chat_area.markdown(f"<div class='chat-bubble'>{full_text}</div>", unsafe_allow_html=True)
 
-    if st.button("Leftover Money Transfer", key="btn4"):
-        st.session_state.transfer_mode = "leftover"
-        st.session_state.chat_history.append(("user", "Leftover Money Transfer"))
-        st.session_state.chat_history.append(("bot", f"You have {LEFTOVER_AMOUNT} {LEFTOVER_CURRENCY} left. Do you want to transfer to your savings account?"))
 
-    st.markdown("</div>", unsafe_allow_html=True)
+# Custom button wrapper
+st.markdown("""
+    <style>
+        .custom-button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+            margin-top: 30px;
+        }
+        .custom-button-container .stButton {
+            opacity: 0;
+            transform: translateY(10px);
+            animation: fadeInUp 0.5s ease forwards;
+        }
+        .custom-button-container .stButton:nth-child(1) { animation-delay: 0.1s; }
+        .custom-button-container .stButton:nth-child(2) { animation-delay: 0.3s; }
+        .custom-button-container .stButton:nth-child(3) { animation-delay: 0.5s; }
+        .custom-button-container .stButton:nth-child(4) { animation-delay: 0.7s; }
 
-st.markdown("---")
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .custom-button-container button {
+            width: 300px !important;
+            text-align: left;
+            background-color: #f0f2f6;
+            color: #333;
+            border: 1px solid #d3d3d3;
+            border-radius: 8px;
+            padding: 10px 16px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .custom-button-container button:hover {
+            background-color: #e0e4ea;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+# Container with class
+st.markdown("<div class='custom-button-container'>", unsafe_allow_html=True)
+
+# Buttons (appear one after another due to animation delays)
+if st.button("Show My Transactions", key="btn1"):
+    st.session_state.transfer_mode = False
+    st.session_state.chat_history.append(("user", "Show my transactions"))
+    st.session_state.chat_history.append(("bot", "Here are your last 5 transactions..."))
+
+if st.button("Help Me Transfer Money", key="btn2"):
+    st.session_state.transfer_mode = True
+    st.session_state.chat_history.append(("user", "Help me transfer money"))
+    st.session_state.chat_history.append(("bot", "Certainly! How much money do you want to transfer and to whom?"))
+
+if st.button("View Credit Score", key="btn3"):
+    st.session_state.transfer_mode = False
+    st.session_state.chat_history.append(("user", "View credit score"))
+    st.session_state.chat_history.append(("bot", "Your current credit score is 768."))
+
+if st.button("Leftover Money Transfer", key="btn4"):
+    st.session_state.transfer_mode = "leftover"
+    st.session_state.chat_history.append(("user", "Leftover Money Transfer"))
+    st.session_state.chat_history.append(("bot", f"You have {LEFTOVER_AMOUNT} {LEFTOVER_CURRENCY} left. Do you want to transfer to your savings account?"))
+
+st.markdown("</div>", unsafe_allow_html=True)
 
 # --- Chat Input ---
 st.markdown("### Chat with Me")
