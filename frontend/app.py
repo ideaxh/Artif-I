@@ -7,6 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "b
 import streamlit as st
 from utils.transfer_utils import parse_transfer_command, normalize_albanian_name, perform_transfer
 from utils.leftover_utils import leftover_transfer_handler
+from config.smart_summary.smart_summary import get_top_spending_category_last_n_months
 
 LEFTOVER_AMOUNT = 150.0
 LEFTOVER_CURRENCY = "EUR"
