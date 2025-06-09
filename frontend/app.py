@@ -82,7 +82,8 @@ def type_text(text, container, delay=0.035):
     #     st.session_state.chat_history.append(("bot", "What transactions would you like to see?"))
 
 # Combine both lines into one string
-full_text = "👋 Hi, I'm RAI\nWhat can I help you with today?"
+full_text = """👋 Hi, I'm RAI.\n
+ What can I help you with today?"""
 
 # Render it only once
 chat_area = st.empty()
@@ -160,37 +161,37 @@ if st.button("Leftover Money Transfer", key="btn4"):
     st.session_state.chat_history.append(("user", "Leftover Money Transfer"))
     st.session_state.chat_history.append(("bot", f"You have {LEFTOVER_AMOUNT} {LEFTOVER_CURRENCY} left. Do you want to transfer to your savings account?"))
 
-    if st.button("Forecast Future Spendings", key="btn5"):
-        st.session_state.transfer_mode = "forecast"
-        st.session_state.chat_history.append(("user", "Forecast Future Spendings"))
-        try:
-            csv_path = 'C:\\Users\\arbru\\OneDrive\\Desktop\\RAI\\Artif-I\\backend\\datasets\\final\\final_expenses_dataset.csv'
+if st.button("Forecast Future Spendings", key="btn5"):
+    st.session_state.transfer_mode = "forecast"
+    st.session_state.chat_history.append(("user", "Forecast Future Spendings"))
+    try:
+        csv_path = 'C:\\Users\\arbru\\OneDrive\\Desktop\\RAI\\Artif-I\\backend\\datasets\\final\\final_expenses_dataset.csv'
 
-            model = ForecastingModel()
-            df = model.load_data(csv_path)
-            monthly = model.resample_monthly(df)
-            forecast = model.train_and_forecast(monthly)
+        model = ForecastingModel()
+        df = model.load_data(csv_path)
+        monthly = model.resample_monthly(df)
+        forecast = model.train_and_forecast(monthly)
 
-            summary = summarize_forecast(forecast)
-            fig_forecast_only, ax = plt.subplots(figsize=(10, 4))
-            forecast.plot(ax=ax, marker='o', color='darkorange', label='Forecast')
-            ax.set_title("6-Month Expense Forecast")
-            ax.set_xlabel("Months")
-            ax.set_ylabel("Amount (EUR)")
-            ax.legend()
-            ax.grid(True)
+        summary = summarize_forecast(forecast)
+        fig_forecast_only, ax = plt.subplots(figsize=(10, 4))
+        forecast.plot(ax=ax, marker='o', color='darkorange', label='Forecast')
+        ax.set_title("6-Month Expense Forecast")
+        ax.set_xlabel("Months")
+        ax.set_ylabel("Amount (EUR)")
+        ax.legend()
+        ax.grid(True)
 
-            summary = summarize_forecast(forecast)
+        summary = summarize_forecast(forecast)
 
-            # Show summary and plot
-            st.subheader("Forecast Summary")
-            st.markdown(summary)
+        # Show summary and plot
+        st.subheader("Forecast Summary")
+        st.markdown(summary)
 
-            st.subheader("Forecast (Next 6 Months Only)")
-            st.pyplot(fig_forecast_only)
+        st.subheader("Forecast (Next 6 Months Only)")
+        st.pyplot(fig_forecast_only)
 
-        except Exception as e:
-            st.session_state.chat_history.append(("bot", f"Something went wrong during forecasting: {e}"))
+    except Exception as e:
+        st.session_state.chat_history.append(("bot", f"Something went wrong during forecasting: {e}"))
 
 
     st.markdown("</div>", unsafe_allow_html=True)
