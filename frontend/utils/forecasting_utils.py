@@ -1,7 +1,9 @@
 import cohere
 
-def summarize_forecast(api_key, forecast_series):
-    co = cohere.Client(api_key)
+cohere_api_key = "sKcXnS3ilXvhWw6kxjaJxdDAl0UVmSEN235G29Mg"
+
+def summarize_forecast(forecast_series):
+    co = cohere.Client(cohere_api_key)
 
     forecast_text = "\n".join(
         f"{date.strftime('%B %Y')}: {amount:.2f} EUR"
@@ -17,8 +19,8 @@ def summarize_forecast(api_key, forecast_series):
     response = co.chat(
         model='command-r',
         message=prompt,
-        max_tokens=100,
-        temperature=0.7
+        max_tokens=200,
+        temperature=0.6
     )
 
     return response.text.strip()

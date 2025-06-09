@@ -6,6 +6,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils.forecasting_utils import summarize_forecast
 from backend.config.budget_forecasting.budget_forecasting import ForecastingModel
+import matplotlib.pyplot as plt 
 
 LEFTOVER_AMOUNT = 150.0
 LEFTOVER_CURRENCY = "EUR"
@@ -47,30 +48,31 @@ with st.container():
     if st.button("Forecast Future Spendings", key="btn5"):
         st.session_state.transfer_mode = "forecast"
         st.session_state.chat_history.append(("user", "Forecast Future Spendings"))
-
-        # Run forecasting model
         try:
             csv_path = 'C:\\Users\\arbru\\OneDrive\\Desktop\\RAI\\Artif-I\\backend\\datasets\\final\\final_expenses_dataset.csv'
-            cohere_api_key = "sKcXnS3ilXvhWw6kxjaJxdDAl0UVmSEN235G29Mg"  # Or prompt the user if not set
 
             model = ForecastingModel()
             df = model.load_data(csv_path)
             monthly = model.resample_monthly(df)
             forecast = model.train_and_forecast(monthly)
 
-            # Plot forecast
-            fig = model.plot_forecast(monthly, forecast)
+            summary = summarize_forecast(forecast)
+            fig_forecast_only, ax = plt.subplots(figsize=(10, 4))
+            forecast.plot(ax=ax, marker='o', color='darkorange', label='Forecast')
+            ax.set_title("6-Month Expense Forecast")
+            ax.set_xlabel("Months")
+            ax.set_ylabel("Amount (EUR)")
+            ax.legend()
+            ax.grid(True)
 
-            # Cohere Summary
-            if cohere_api_key:
-                summary = summarize_forecast(cohere_api_key, forecast)
-                st.session_state.chat_history.append(("bot", summary))
-            else:
-                st.session_state.chat_history.append(("bot", "Forecast generated, but missing Cohere API key for summary."))
+            summary = summarize_forecast(forecast)
 
-            # Render Plot
-            st.subheader("📊 Forecast Plot")
-            st.pyplot(fig)
+            # Show summary and plot
+            st.subheader("Forecast Summary")
+            st.markdown(summary)
+
+            st.subheader("Forecast (Next 6 Months Only)")
+            st.pyplot(fig_forecast_only)
 
         except Exception as e:
             st.session_state.chat_history.append(("bot", f"Something went wrong during forecasting: {e}"))

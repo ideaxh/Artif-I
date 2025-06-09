@@ -29,7 +29,7 @@ class ForecastingModel:
         history.plot(label='Historical', marker='o')
         forecast.plot(label='Forecast', marker='o', linestyle='--', color='orange')
         plt.title('Monthly Expenses Forecast')
-        plt.xlabel('Date')
+        plt.xlabel('Years')
         plt.ylabel('Amount (EUR)')
         plt.legend()
         plt.grid(True)
