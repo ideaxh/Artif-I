@@ -1,0 +1,78 @@
+date,payment_method,category,expenses,amount,currency,location
+2025-03-02 10:11:00,online_payment,restaurant,expense,5.0,EUR,KFC
+2025-03-02 10:11:00,online_payment,other,expense,30.0,EUR,Burger King
+2025-03-01 19:50:00,online_payment,restaurant,expense,7.8,EUR,Papirun
+2025-03-01 18:56:00,online_payment,transportation,expense,3.0,EUR,Chop
+2025-03-01 18:22:00,online_payment,restaurant,expense,6.7,EUR,McDonald's
+2025-02-28 11:56:00,online_payment,restaurant,expense,33.92,EUR,Papirun
+2025-02-27 15:29:00,online_payment,restaurant,expense,24.3,EUR,Domino's
+2025-02-26 20:16:00,online_payment,restaurant,expense,2.5,EUR,KFC
+2025-02-26 17:37:00,online_payment,other,expense,10.0,EUR,Burger King
+2025-02-26 16:01:00,online_payment,social life,expense,170.0,EUR,Papirun
+2025-02-26 14:07:00,online_payment,restaurant,expense,4.0,EUR,Chop
+2025-02-26 01:39:00,online_payment,restaurant,expense,8.4,EUR,McDonald's
+2025-02-25 12:08:00,online_payment,restaurant,expense,3.3,EUR,Papirun
+2025-02-24 22:32:00,online_payment,household,expense,30.3,EUR,Domino's
+2025-02-24 22:21:00,online_payment,restaurant,expense,28.9,EUR,KFC
+2025-02-24 19:15:00,online_payment,restaurant,expense,32.47,EUR,Burger King
+2025-02-23 17:35:00,online_payment,apparel,expense,39.9,EUR,Papirun
+2025-02-23 16:06:00,online_payment,restaurant,expense,8.3,EUR,Chop
+2025-02-23 12:38:00,online_payment,apparel,expense,39.9,EUR,McDonald's
+2025-02-22 06:33:00,online_payment,transportation,expense,12.0,EUR,Papirun
+2025-02-21 22:15:00,online_payment,transportation,expense,130.0,EUR,Domino's
+2025-02-21 16:06:00,online_payment,transportation,expense,13.8,EUR,KFC
+2025-02-21 15:40:00,online_payment,household,expense,33.6,EUR,Burger King
+2025-02-21 15:38:00,online_payment,transportation,expense,20.18,EUR,Papirun
+2025-02-20 15:24:00,online_payment,restaurant,expense,20.0,EUR,Chop
+2025-02-19 23:03:00,online_payment,restaurant,expense,11.1,EUR,McDonald's
+2025-02-19 21:57:00,online_payment,restaurant,expense,25.0,EUR,Papirun
+2025-02-19 21:35:00,online_payment,transportation,expense,157.5,EUR,Domino's
+2025-02-19 20:45:00,online_payment,transportation,expense,20.0,EUR,KFC
+2025-02-19 20:45:00,online_payment,restaurant,expense,38.0,EUR,Burger King
+2025-02-19 08:26:00,online_payment,transportation,expense,6.0,EUR,Papirun
+2025-02-19 06:27:00,online_payment,other,expense,5.0,EUR,Chop
+2025-02-19 06:18:00,online_payment,transportation,expense,27.0,EUR,McDonald's
+2025-02-18 23:01:00,online_payment,restaurant,expense,34.8,EUR,Papirun
+2025-02-17 13:11:00,online_payment,restaurant,expense,8.0,EUR,Domino's
+2025-02-16 16:57:00,online_payment,restaurant,expense,16.5,EUR,KFC
+2025-02-16 16:57:00,online_payment,restaurant,expense,47.5,EUR,Burger King
+2025-02-13 21:54:00,online_payment,social life,expense,10.0,EUR,Papirun
+2025-02-12 21:20:00,online_payment,restaurant,expense,49.1,EUR,Chop
+2025-02-12 16:04:00,online_payment,household,expense,7.0,EUR,McDonald's
+2025-02-12 14:48:00,online_payment,restaurant,expense,8.0,EUR,Papirun
+2025-02-11 22:41:00,online_payment,restaurant,expense,37.3,EUR,Domino's
+2025-02-10 20:15:00,online_payment,restaurant,expense,64.1,EUR,KFC
+2025-02-08 09:18:00,online_payment,household,expense,209.9,EUR,Burger King
+2025-02-07 07:08:00,online_payment,transportation,expense,21.4,EUR,Papirun
+2025-02-06 18:32:00,online_payment,restaurant,expense,12.5,EUR,Chop
+2025-02-06 17:53:00,online_payment,restaurant,expense,15.0,EUR,McDonald's
+2025-02-06 17:52:00,online_payment,transportation,expense,100.0,EUR,Papirun
+2025-02-06 16:40:00,online_payment,other,expense,150.0,EUR,Domino's
+2025-02-04 20:28:00,online_payment,restaurant,expense,8.0,EUR,KFC
+2025-02-03 14:53:00,online_payment,restaurant,expense,5.0,EUR,Burger King
+2025-02-03 08:59:00,online_payment,other,expense,15.0,EUR,Papirun
+2025-02-02 20:15:00,online_payment,restaurant,expense,12.0,EUR,Chop
+2025-01-31 08:44:00,online_payment,transportation,expense,5.0,EUR,McDonald's
+2025-01-31 08:27:00,online_payment,other,expense,20.0,EUR,Papirun
+2025-01-31 08:26:00,online_payment,transportation,expense,15.3,EUR,Domino's
+2025-01-30 19:17:00,online_payment,restaurant,expense,15.5,EUR,KFC
+2025-01-30 19:01:00,online_payment,restaurant,expense,12.0,EUR,Burger King
+2025-01-30 12:28:00,online_payment,restaurant,expense,10.5,EUR,Papirun
+2025-01-29 21:56:00,online_payment,transportation,expense,4.4,EUR,Chop
+2025-01-29 14:44:00,online_payment,other,expense,10.0,EUR,McDonald's
+2025-01-28 21:58:00,online_payment,restaurant,expense,1.0,EUR,Papirun
+2025-01-28 14:23:00,online_payment,restaurant,expense,13.8,EUR,Domino's
+2025-01-27 21:25:00,online_payment,transportation,expense,4.3,EUR,KFC
+2025-01-27 13:41:00,online_payment,other,expense,30.0,EUR,Burger King
+2025-01-27 13:41:00,online_payment,other,expense,10.0,EUR,Papirun
+2025-01-27 13:39:00,online_payment,restaurant,expense,27.9,EUR,Chop
+2025-01-26 17:45:00,online_payment,restaurant,expense,11.5,EUR,McDonald's
+2025-01-26 16:52:00,online_payment,restaurant,expense,2.5,EUR,Papirun
+2025-01-25 13:35:00,online_payment,restaurant,expense,25.9,EUR,Domino's
+2025-01-25 10:23:00,online_payment,restaurant,expense,1.8,EUR,KFC
+2025-01-25 09:20:00,online_payment,transportation,expense,32.5,EUR,Burger King
+2025-01-24 20:17:00,online_payment,restaurant,expense,4.0,EUR,Papirun
+2025-01-24 14:08:00,online_payment,restaurant,expense,13.3,EUR,Chop
+2025-01-23 21:45:00,online_payment,restaurant,expense,4.0,EUR,McDonald's
+2025-01-23 21:41:00,online_payment,restaurant,expense,46.5,EUR,Papirun
+2025-01-23 21:29:00,online_payment,restaurant,expense,30.0,EUR,Domino's

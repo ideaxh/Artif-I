@@ -1,7 +1,14 @@
+import sys
+import os
+
+# Add backend directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "backend")))
+
 import streamlit as st
 import time
 from utils.transfer_utils import parse_transfer_command, normalize_albanian_name, perform_transfer
 from utils.leftover_utils import leftover_transfer_handler
+from config.smart_summary.smart_summary import get_top_spending_category_last_n_months
 
 LEFTOVER_AMOUNT = 150.0
 LEFTOVER_CURRENCY = "EUR"
@@ -13,7 +20,8 @@ if "transfer_mode" not in st.session_state:
 if "typed_intro" not in st.session_state:
     st.session_state.typed_intro = False
 
-# --- Header ---
+# --- Header ---from config.smart_summary.smart_summary import get_top_spending_category_last_n_months
+
 st.set_page_config(page_title="Banking Assistant", page_icon="💬", layout="centered")
 
 # Dark chat bubble styling
@@ -50,6 +58,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+
 # Simulate typing inside one bubble
 def type_text(text, container, delay=0.035):
     displayed_text = ""
@@ -57,6 +66,11 @@ def type_text(text, container, delay=0.035):
         displayed_text += char
         container.markdown(f"<div class='chat-bubble'>{displayed_text}</div>", unsafe_allow_html=True)
         time.sleep(delay)
+
+    if st.button("Show My Transactions", key="btn1"):
+        st.session_state.transfer_mode = False
+        st.session_state.chat_history.append(("user", "Show my transactions"))
+        st.session_state.chat_history.append(("bot", "What transactions would you like to see?"))
 
 # Combine both lines into one string
 full_text = "👋 Hi, I'm RAI\nWhat can I help you with today?"
@@ -170,6 +184,13 @@ def get_bot_response(user_input):
         return "Your credit score is currently 768."
     elif "qoja" in user_input or "dërgo" in user_input:
         return "Please click the *Help Me Transfer Money* button to begin a trsnafer."
+    elif "spend the most on" in user_input:
+        if "last 3 months" in user_input:
+            return get_top_spending_category_last_n_months(n=3)
+        elif "last 6 months" in user_input:
+            return get_top_spending_category_last_n_months(n=6)
+        else:
+            return "Please specify how many months to analyze, like 'last 3 months'."
     else:
         return "I'm here to help with transactions, transfers, and credit scores!"
 
@@ -179,6 +200,6 @@ if user_message:
     bot_reply = get_bot_response(user_message)
     st.session_state.chat_history.append(("bot", bot_reply))
 
-# --- Display Chat ---
+# Display chat history
 for sender, message in st.session_state.chat_history:
     st.chat_message(sender).markdown(message)
