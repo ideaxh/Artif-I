@@ -1,65 +1,43 @@
+import os
 import pandas as pd
+from pathlib import Path
 from datetime import datetime
 
-# Load your original CSV
-df = pd.read_csv("/workspace/ai-hackathon-va/backend/datasets/expense_data_1.csv", parse_dates=["Date"])
+def get_top_spending_category_last_n_months(n=6):
+    # Load your CSV
+    cwd = Path(__file__).parent.resolve()
+    relative_path = "../../datasets/final/cleaned_expense_data.csv"
+    full_path = (cwd / relative_path).resolve()
+    # path_with_forward_slashes = full_path.as_posix()
 
-# Normalize relevant columns (basic cleanup in-memory)
-df["Category"] = df["Category"].str.lower().str.strip()
-df["Income/Expense"] = df["Income/Expense"].str.lower().str.strip()
+    print(f"Full path: {full_path}")
+    df = pd.read_csv(full_path, parse_dates=["date"])
+    # Filter data for last `n` months
+    today = pd.Timestamp.today()
+    cutoff_date = today - pd.DateOffset(months=n)
+    df_nmonths = df[df['date'] >= cutoff_date]
 
-def get_amount_spent(category, date_str):
-    try:
-        query_date = datetime.strptime(date_str, "%B %d, %Y").date()
-    except ValueError:
-        return "Invalid date format. Use 'Month day, year' like 'March 1, 2022'."
+    # Group by category and sum amount
+    category_sums = df_nmonths.groupby('category')['amount'].sum()
 
-    df["OnlyDate"] = df["Date"].dt.date
-    filtered = df[
-        (df["Category"].str.lower() == category.lower()) &
-        (df["OnlyDate"] == query_date) &
-        (df["Income/Expense"].str.lower() == "expense")
-    ]
+    # Find the category with max spending
+    top_category = category_sums.idxmax()
+    top_category_amount = category_sums.max()
 
-    total = filtered["Amount"].sum()
-    return f"You spent {total} on {category} on {query_date}."
+    # Filter data for only top category
+    df_top_cat = df_nmonths[df_nmonths['category'] == top_category]
 
-if __name__ == "__main__":
-    while True:
-        query = input("\nAsk your expense question (or type 'exit'): ").strip()
-        if query.lower() == "exit":
-            break
+    # Group by location and sum amount within top category
+    location_sums = df_top_cat.groupby('location')['amount'].sum()
 
-        # Improved parsing:
-        if "how much did i spend on" in query.lower():
-            try:
-                # Extract category between "spend on" and "on <date>"
-                # Example: "How much did I spend on food on March 1, 2022?"
-                parts = query.lower().split("how much did i spend on")[1].strip().rsplit(" on ", 1)
-                category = parts[0].strip()
-                date_str = parts[1].strip().rstrip("?")
-                print(get_amount_spent(category, date_str))
-            except Exception as e:
-                print("Sorry, I couldn't understand that. Try: 'How much did I spend on food on March 1, 2022?'")
-        else:
-            print("Try something like: 'How much did I spend on food on March 1, 2022?'")
+    # Get top 3 locations
+    top_locations = location_sums.sort_values(ascending=False).head(3).index.tolist()
 
+    # Format output with newline
+    output = (
+        f"In the last {n} months, you spent the most on {top_category}, "
+        f"totaling €{top_category_amount:.2f}.\n"
+        f"Your top locations were:\n" + "\n".join(f"- {loc}" for loc in top_locations)
+    )
 
-# Sample interaction loop
-if __name__ == "__main__":
-    while True:
-        query = input("\nAsk your expense question (or type 'exit'): ")
-        if query.lower() == "exit":
-            break
-
-        # Simple pattern: "how much did i spend on CATEGORY on DATE?"
-        if "how much did i spend on" in query:
-            try:
-                parts = query.lower().split(" on ")
-                category = parts[1].split(" on ")[0].strip()
-                date_str = parts[-1].strip().rstrip("?")
-                print(get_amount_spent(category, date_str))
-            except:
-                print("Sorry, I couldn't understand that. Try: 'How much did I spend on food on March 1, 2022?'")
-        else:
-            print("Try something like: 'How much did I spend on food on March 1, 2022?'")
+    return output
