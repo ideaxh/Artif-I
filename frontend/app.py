@@ -18,6 +18,7 @@ import matplotlib.pyplot as plt
 
 LEFTOVER_AMOUNT = 150.0
 LEFTOVER_CURRENCY = "EUR"
+USER_NAME = "Klea"
 # --- Session Setup ---
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
@@ -45,9 +46,6 @@ st.markdown("""
         box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         line-height: 1.5;
     }
-    .st-emotion-cache-4zpzjl {
-            background-color: yellow !important;
-        }
     .st-emotion-cache-ktz07o:active {
             border-color: yellow !important;
             color: yellow !important;
@@ -64,6 +62,10 @@ st.markdown("""
     .st-emotion-cache-x1bvup:focus-within {
     border-color: yellow !important;
 }
+    .st-emotion-cache-bm2z3a {
+            padding-left:10px;
+            padding-right:10px;
+            }
     </style>
 """, unsafe_allow_html=True)
 
@@ -82,8 +84,7 @@ def type_text(text, container, delay=0.035):
     #     st.session_state.chat_history.append(("bot", "What transactions would you like to see?"))
 
 # Combine both lines into one string
-full_text = """👋 Hi, I'm RAI.\n
- What can I help you with today?"""
+full_text = f"👋 Hi {USER_NAME}, I'm RAI.\nWhat can I help you with today?"
 
 # Render it only once
 chat_area = st.empty()
@@ -245,4 +246,7 @@ if user_message:
 
 # Display chat history
 for sender, message in st.session_state.chat_history:
-    st.chat_message(sender).markdown(message)
+    if sender == "bot":
+        st.chat_message("bot", avatar="assets/raiffeisenlogosq.png").markdown(message)  # Or use a URL to an SVG/PNG
+    else:
+        st.chat_message(sender).markdown(message)
