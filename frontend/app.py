@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 
 LEFTOVER_AMOUNT = 150.0
 LEFTOVER_CURRENCY = "EUR"
-USER_NAME = "Klea"
+USER_NAME = "Arb"
 # --- Session Setup ---
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
@@ -151,12 +151,7 @@ if st.button("Help Me Transfer Money", key="btn2"):
     st.session_state.transfer_mode = True
     st.session_state.chat_history.append(("user", "Help me transfer money"))
     st.session_state.chat_history.append(("bot", "Certainly! How much money do you want to transfer and to whom?"))
-
-if st.button("View Credit Score", key="btn3"):
-    st.session_state.transfer_mode = False
-    st.session_state.chat_history.append(("user", "View credit score"))
-    st.session_state.chat_history.append(("bot", "Your current credit score is 768."))
-
+    
 if st.button("Leftover Money Transfer", key="btn4"):
     st.session_state.transfer_mode = "leftover"
     st.session_state.chat_history.append(("user", "Leftover Money Transfer"))
